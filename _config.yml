@@ -1,7 +1,7 @@
 #highlighter: pygments
 #github: [Repository metadata]
-safe: true
-lsi: false
+#safe: true
+#lsi: false
 #source: "C:\Users\Administrator\Documents\GitHub\naumanshahid.github.io"
 
 # Site settings
@@ -19,4 +19,4 @@ markdown: kramdown
 highlighter: pygments
 permalink: pretty
 paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+#exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
