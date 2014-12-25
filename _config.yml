@@ -1,0 +1,22 @@
+#highlighter: pygments
+#github: [Repository metadata]
+safe: true
+lsi: false
+#source: "C:\Users\Administrator\Documents\GitHub\naumanshahid.github.io"
+
+# Site settings
+title: Nauman Shahid
+email: naumanshahid@msn.com
+description: "Nauman Shahid"
+baseurl: ""
+url: "http://naumanshahid.github.io"
+#twitter_username: SBootstrap
+#github_username:  davidtmiller
+#facebook_username:  IronSummitMedia
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
