@@ -8,8 +8,8 @@ lsi: false
 title: Nauman Shahid
 email: naumanshahid@msn.com
 description: "Nauman Shahid"
-baseurl: ""
-url: "http://naumanshahid.github.io"
+#baseurl: "/"
+#url: "http://naumanshahid.github.io/"
 #twitter_username: SBootstrap
 #github_username:  davidtmiller
 #facebook_username:  IronSummitMedia
