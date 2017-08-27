@@ -1,14 +1,23 @@
-permalink:  pretty
-#relative_permalinks:    true
+#highlighter: pygments
+#github: [Repository metadata]
+#safe: true
+#lsi: false
+#source: "C:\Users\Administrator\Documents\GitHub\naumanshahid.github.io"
 
-# Setup
-title:  Nauman Shahid
-tagline: quaesitor scientiae
-email:  naumanshahid@msn.com
-description:    "Nauman Shahid"
-description2:   "Computer Engineer"
-paginate:   2
-baseurl:    ''
+# Site settings
+title: Nauman Shahid
+email: naumanshahid@msn.com
+description: "Nauman Shahid"
+#baseurl: "/"
+#url: "http://naumanshahid.github.io/"
+#twitter_username: SBootstrap
+#github_username:  davidtmiller
+#facebook_username:  IronSummitMedia
 
-# Gems
-plugins: [jekyll-paginate]
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+
+#exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
