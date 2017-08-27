@@ -281,7 +281,7 @@ title: Projects
 		<small>
 		<a class="list-group-item" style="padding:2.5%;">Karachi Stock Exchange’s website does not offer RSS feeds</a>
 		<a class="list-group-item" style="padding:2.5%;">An efficient approach to webpage-scraping and webpage-parsing was explored in this project</a>
-		<a class="list-group-item" style="padding:2.5%;">Html Agility Pack and XPath (XML Path Language) proved to be helpful in achieving this goal</a>
+		<a class="list-group-item" style="padding:2.5%;">HTML Agility Pack and XPath (XML Path Language) proved to be helpful in achieving this goal</a>
 		<a class="list-group-item" style="padding:2.5%;">Data was logged in a background thread from KSE's website after 5 minute intervals and trend graphs plotted to ease analysis; a stock ticker was also incorporated into the GUI</a>
 		<a class="list-group-item" style="padding:2.5%;">Advisor: Dr. Wasi Haider Butt (National University of Sciences and Technology, Islamabad, Pakistan)</a>
 		<a class="list-group-item" style="padding:2.5%;">EC-316: Database Engineering</a>
