@@ -52,7 +52,7 @@ title: Projects
 		<small>
 		<small>
 		<a class="list-group-item" style="padding:2.5%;">Design and Implementation of an IEEE 802.3 packet routing mechanism on FPGA fabric (in Verilog and VHDL)</a>
-		<a class="list-group-item" style="padding:2.5%;">Deep packet inspection extracts OSI Layer 4 and 7 features (Protocol and URL) from incoming packets using string matching algorithms</a>
+		<a class="list-group-item" style="padding:2.5%;">Deep packet inspection extracts OSI Layer 4 and 7 features (Protocol and URL) from incoming HTTP GET packets using string matching algorithms</a>
 		<a class="list-group-item" style="padding:2.5%;">Packets are then routed to designated output ports depending upon required bandwidth to achieve better QoS</a>
 		<a class="list-group-item" style="padding:2.5%;">The design is prototyped on NetFPGA 10G Development Board (Xilinx Virtex 5 FPGA Processor)</a>
 		<a class="list-group-item" style="padding:2.5%;">Advisor: Brig. Dr. Shoab Ahmed Khan, Ph.D. Georgia Institute of Technology, Atlanta GA</a>
