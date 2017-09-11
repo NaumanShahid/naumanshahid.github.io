@@ -3,16 +3,11 @@ layout: page
 title: About Me
 ---
 <br>
-<!--<p class="message" align="justify">
-Nauman Shahid
-</p>-->
-I am Nauman Shahid. I like to identify myself as a Software Engineer and Developer. I was born and bred in Lahore, Pakistan. I earned my undergraduate degree cum laude with majors in Computer Engineering from the National University of Sciences and Technology, Islamabad, Pakistan in 2014.
 
-Since graduation, I have had the honor of serving:
-* <a href="https://www.afiniti.com/" style="text-decoration:none;" target="_blank">Afiniti International Holdings Ltd.</a> as Software Engineer <b>(current)</b>
-* <a href="https://www.mentor.com/" style="text-decoration:none;" target="_blank">Mentor Graphics Corporation</a> as Software Development Engineer and then as Senior Software Development Engineer
-* <a href="https://www.u-blox.com/" style="text-decoration:none;" target="_blank">u-blox AG</a> as Associate Engineer
-
+<p>Graduated Cum Laude in June 2014 with a Bachelor of Engineering Degree with majors in Computer Engineering from <a href="http://www.nust.edu.pk/" target="_blank"  style="text-decoration:none;">The National University of Sciences and Technology, Islamabad, Pakistan</a><br>
+<p>Currently serving the Washington, DC based <a href="https://www.afiniti.com/" target="_blank" style="text-decoration:none;">Afiniti</a>, focusing on harnessing the power of Artificial Intelligence to maximise the success of B2B dealings, as a Software Engineer<br>
+<p>Prior to this, I served the Wilsonville, Oregon based world leader in Electronic Design Automation, <a href="https://www.mentor.com/" target="_blank" style="text-decoration:none;">Mentor Graphics Corporation</a>, as a Senior Software Development Engineer<br>
+<p>And prior to this, I served the Swiss Semiconductor Company <a href="https://www.u-blox.com/" target="_blank" style="text-decoration:none;">u-blox AG</a>, the global leader in wireless communication and positioning, as an Associate Engineer<br></p>
 
 <br>
 <hr>

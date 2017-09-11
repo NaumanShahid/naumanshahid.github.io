@@ -22,7 +22,7 @@
       {% if node.title != null %}
         {% if node.layout == "page" %}
 			{% if node.title == "Curriculum Vitae" %}
-				<a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}" target="_blank">{{ node.title }}&nbsp;&nbsp;<i class="fa fa-file-pdf-o" fa-aria-hidden="true"></i>&nbsp;&nbsp;<i class="fa fa-external-link" fa-aria-hidden="true"></i></a>
+				<a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}" target="_blank">{{ node.title }}&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-file-pdf-o" fa-aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-external-link" fa-aria-hidden="true"></i></a>
 			{% else %}
 				<a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
 			{% endif %}
