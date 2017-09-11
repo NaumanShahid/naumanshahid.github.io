@@ -14,8 +14,8 @@ For someone with unassuming web development skills, setting it all up was pretty
 * <a href="https://jekyllrb.com/docs/windows/" target="_blank;" style="text-decoration:none;">Microsoft Windows</a>
 
 What to do when your environment is ready?
-1. Look for Jekyll templates and download/clone your pick
-2. These templates come with instructions to tailor them to your needs; they are pretty easy to modify since you have to type your content in markup (plain-text) involving minimal code
+1. Look for Jekyll templates and download/clone/fork your pick
+2. These templates come with instructions to tailor them to your needs; they are pretty easy to modify since you have to type your content in markdown involving minimal code
 3. Open a bash terminal (Unix) or command prompt (Microsoft Windows) in the master directory of your template, and let <code>jekyll serve</code> do the magic!
 
 <div class="message text-center" style="font-size:80%;">
