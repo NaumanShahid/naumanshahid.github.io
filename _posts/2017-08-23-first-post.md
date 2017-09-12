@@ -3,13 +3,13 @@ layout: post
 title: Introduction
 ---
 
-This here is my go at web development using:
+This here is my go at web development using
 * <a href="https://pages.github.com/" target="_blank;" style="text-decoration:none;">GitHub Pages</a>
 * <a href="https://chocolatey.org/" target="_blank;" style="text-decoration:none;">Chocolatey</a>
 * <a href="https://rubyinstaller.org/" target="_blank;" style="text-decoration:none;">Ruby</a>
 * <a href="https://jekyllrb.com/" target="_blank;" style="text-decoration:none;">Jekyll</a>
 
-For someone with unassuming web development skills, setting it all up was pretty straightforward. These serve as wonderful walkthroughs for setting up your environment:
+For someone with unassuming web development skills, setting it all up was pretty straightforward. These serve as wonderful walkthroughs for setting up your environment
 * <a href="https://jekyllrb.com/docs/installation/" target="_blank;" style="text-decoration:none;">Unix-based operating systems</a>
 * <a href="https://jekyllrb.com/docs/windows/" target="_blank;" style="text-decoration:none;">Microsoft Windows</a>
 
@@ -23,10 +23,43 @@ What to do when your environment is ready?
 	<br>Open sourced under the <a href="{{ site.baseurl }}/LICENSE.md" style="text-decoration:none;">MIT license</a>
 </div>
 
-Some pretty useful frameworks/tweaks that I decided to embed in the template I chose for a better user experience:
-<div class="list-group">
-<a class="list-group-item" href="https://www.getbootstrap.com/" target="_blank;" style="text-decoration:none; padding:1%;">Bootstrap</a>
-<a class="list-group-item" href="http://www.fontawesome.io/" target="_blank;" style="text-decoration:none; padding:1%;">Font Awesome</a>
-<a class="list-group-item" href="https://www.michaelsoolee.com/google-analytics-jekyll/" target="_blank;" style="text-decoration:none; padding:1%;">Google Analytics</a>
-<a class="list-group-item" href="http://www.lokeshdhakar.com/projects/lightbox2/" target="_blank;" style="text-decoration:none; padding:1%;">Lightbox</a>
+Some pretty useful frameworks/tweaks that I decided to embed in my template for a better UX
+
+<center>
+<div class="container-fluid row btn-group">
+<div class="col">
+  <a class="btn btn-default" href="https://www.michaelsoolee.com/google-analytics-jekyll/" target="_blank;" style="color: Tomato;" data-toggle="tooltip" title="Google Analytics"><i class="fa fa-lg fa-bar-chart"></i></a>
+  <a class="btn btn-default" href="http://www.lokeshdhakar.com/projects/lightbox2/" target="_blank;" style="color: DarkOrange;" data-toggle="tooltip" title="Lightbox"><i class="fa fa-lg fa-camera-retro"></i></a>
+  <a class="btn btn-default" href="http://www.fontawesome.io/" target="_blank;" style="color: MediumSeaGreen;" data-toggle="tooltip" title="Font Awesome"><i class="fa fa-lg fa-font-awesome"></i></a>
+  <a class="btn btn-default" href="https://www.getbootstrap.com/" target="_blank;" style="color: RebeccaPurple;" data-toggle="tooltip" title="Bootstrap"><i class="fa fa-lg fa-html5"><i class="fa fa-lg fa-css3"></i></i></a>
 </div>
+</div>
+</center>
+<!--
+<div class="container-fluid row">
+	<div class="col" style="padding-right:0; padding-left:0;">
+		<div class="list-group small">
+			<a class="list-group-item list-group-item-action active" onclick="toggle(this)" href="https://www.getbootstrap.com/" target="_blank;" style="text-decoration:none; padding: 2%;">&nbsp;&nbsp;Bootstrap</a>
+			<div class="w-100" style="padding:-;"></div>
+			<a class="list-group-item list-group-item-action" onclick="toggle(this)" href="http://www.fontawesome.io/" target="_blank;" style="text-decoration:none; padding: 2%;">&nbsp;&nbsp;Font Awesome</a>
+		</div>
+	</div>
+	
+	<div class="col" style="padding-right:0; padding-left:0;">
+		<div class="list-group small">
+			<a class="list-group-item list-group-item-action" onclick="toggle(this)" href="https://www.michaelsoolee.com/google-analytics-jekyll/" target="_blank;" style="text-decoration:none; padding: 2%;">&nbsp;&nbsp;Google Analytics</a>
+			<div class="w-100" style="padding:0"></div>
+			<a class="list-group-item list-group-item-action" onclick="toggle(this)" href="http://www.lokeshdhakar.com/projects/lightbox2/" target="_blank;" style="text-decoration:none; padding: 2%;">&nbsp;&nbsp;Lightbox</a>
+		</div>
+	</div>
+</div>
+
+<script>
+function toggle(element) {
+	var $this = $(element);
+
+    $('.active').removeClass('active');
+    $this.toggleClass('active')
+}
+</script>
+-->
