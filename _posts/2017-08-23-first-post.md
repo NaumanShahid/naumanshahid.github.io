@@ -25,16 +25,15 @@ What to do when your environment is ready?
 
 Some pretty useful frameworks/tweaks that I decided to embed in my template for a better UX
 
-<center>
-<div class="container-fluid row btn-group">
-<div class="col">
-  <a class="btn btn-default" href="https://www.michaelsoolee.com/google-analytics-jekyll/" target="_blank;" style="color: Tomato;" data-toggle="tooltip" title="Google Analytics"><i class="fa fa-lg fa-bar-chart"></i></a>
-  <a class="btn btn-default" href="http://www.lokeshdhakar.com/projects/lightbox2/" target="_blank;" style="color: DarkOrange;" data-toggle="tooltip" title="Lightbox"><i class="fa fa-lg fa-camera-retro"></i></a>
-  <a class="btn btn-default" href="http://www.fontawesome.io/" target="_blank;" style="color: MediumSeaGreen;" data-toggle="tooltip" title="Font Awesome"><i class="fa fa-lg fa-font-awesome"></i></a>
-  <a class="btn btn-default" href="https://www.getbootstrap.com/" target="_blank;" style="color: RebeccaPurple;" data-toggle="tooltip" title="Bootstrap"><i class="fa fa-lg fa-html5"><i class="fa fa-lg fa-css3"></i></i></a>
+<div style="text-align: center;">
+<div class="btn-group">
+  <a class="btn btn-light" type="button" href="https://www.michaelsoolee.com/google-analytics-jekyll/" target="_blank;" style="color: Tomato;" title="Google Analytics"><i class="fa fa-lg fa-bar-chart"></i></a>
+  <a class="btn btn-light" type="button" href="http://www.lokeshdhakar.com/projects/lightbox2/" target="_blank;" style="color: DarkOrange;" title="Lightbox"><i class="fa fa-lg fa-camera-retro"></i></a>
+  <a class="btn btn-light" type="button" href="http://www.fontawesome.io/" target="_blank;" style="color: MediumSeaGreen;" title="Font Awesome"><i class="fa fa-lg fa-font-awesome"></i></a>
+  <a class="btn btn-light" type="button" href="https://www.getbootstrap.com/" target="_blank;" style="color: RebeccaPurple;" title="Bootstrap"><i class="fa fa-lg fa-html5"><i class="fa fa-lg fa-css3"></i></i></a>
 </div>
 </div>
-</center>
+
 <!--
 <div class="container-fluid row">
 	<div class="col" style="padding-right:0; padding-left:0;">
