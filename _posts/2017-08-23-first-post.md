@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction
+title: My first post
 ---
 
 This here is my go at web development using
