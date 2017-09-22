@@ -12,7 +12,7 @@ title: Contact
   <a class="list-group-item" style="color:black; text-decoration : none;" href="https://www.github.com/NaumanShahid/" target="_blank"><i class="fa fa-github fa-lg fa-fw" aria-hidden="true"></i>&nbsp; GitHub</a>
   <a class="list-group-item" style="color:black; text-decoration : none;" href="https://www.quora.com/profile/Nauman-Shahid-5/" target="_blank"><i class="fa fa-quora fa-lg fa-fw" aria-hidden="true"></i>&nbsp; Quora</a>
   <a class="list-group-item" style="color:black; text-decoration : none;" href="https://www.linkedin.com/in/snaumanshahid/" target="_blank"><i class="fa fa-linkedin fa-lg fa-fw" aria-hidden="true"></i>&nbsp; LinkedIn</a>
-  <a class="list-group-item" style="color:black; text-decoration : none;" href="https://www.facebook.com/s.nauman.shahid/" target="_blank"><i class="fa fa-facebook fa-lg fa-fw" aria-hidden="true"></i>&nbsp; Facebook</a>
+  <!--<a class="list-group-item" style="color:black; text-decoration : none;" href="https://www.facebook.com/s.nauman.shahid/" target="_blank"><i class="fa fa-facebook fa-lg fa-fw" aria-hidden="true"></i>&nbsp; Facebook</a>-->
 </div>
 <br>
 <br>
