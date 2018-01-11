@@ -20,7 +20,7 @@ What to do when your environment is ready?
 
 <div class="message text-center" style="font-size:80%;">
 	<strong>Template used: <a href="https://www.github.com/poole/lanyon" style="text-decoration:none;">Lanyon</a>&nbsp; Authored by: <a href="https://www.github.com/mdo/" style="text-decoration:none;">Mark Otto</a></strong>
-	<br>Open sourced under the <a href="{{ site.baseurl }}/LICENSE.md" style="text-decoration:none;">MIT license</a>
+	<br>Open sourced under the <a href="{{ site.baseurl }}/LICENSE.md" style="text-decoration:none;">MIT License</a>
 </div>
 
 Some pretty useful frameworks/tweaks that I decided to embed in my template for a better UX
