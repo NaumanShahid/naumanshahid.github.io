@@ -19,7 +19,7 @@ What to do when your environment is ready?
 3. Open a bash terminal (Unix) or command prompt (Microsoft Windows) in the master directory of your template, and let <code>jekyll serve</code> do the magic!
 
 <div class="message text-center" style="font-size:80%;">
-	<strong>Template used: <a href="https://www.github.com/poole/lanyon" style="text-decoration:none;">Lanyon</a>, Authored by: <a href="https://www.github.com/mdo/" style="text-decoration:none;">Mark Otto</a></strong>
+	<strong>Template used: <a href="https://www.github.com/poole/lanyon" style="text-decoration:none;">Lanyon</a>&nbsp; Authored by: <a href="https://www.github.com/mdo/" style="text-decoration:none;">Mark Otto</a></strong>
 	<br>Open sourced under the <a href="{{ site.baseurl }}/LICENSE.md" style="text-decoration:none;">MIT license</a>
 </div>
 
