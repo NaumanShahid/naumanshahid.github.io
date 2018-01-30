@@ -9,21 +9,21 @@ This here is my go at web development using
 * <a href="https://rubyinstaller.org/" target="_blank;" style="text-decoration:none;">Ruby</a>
 * <a href="https://jekyllrb.com/" target="_blank;" style="text-decoration:none;">Jekyll</a>
 
-For someone with unassuming web development skills, setting it all up was pretty straightforward. These serve as wonderful walkthroughs for setting up your environment
-* <a href="https://jekyllrb.com/docs/installation/" target="_blank;" style="text-decoration:none;">Unix-based operating systems</a>
+For someone with unassuming web development skills, setting it all up was pretty straightforward. The following serve as wonderful walkthroughs for setting up your environment:
+* <a href="https://jekyllrb.com/docs/installation/" target="_blank;" style="text-decoration:none;">UNIX-based operating systems</a>
 * <a href="https://jekyllrb.com/docs/windows/" target="_blank;" style="text-decoration:none;">Microsoft Windows</a>
 
-What to do when your environment is ready?
+Now that your environment is all set up:
 1. Look for Jekyll templates and download/clone/fork your pick
 2. These templates come with instructions to tailor them to your needs; they are pretty easy to modify since you have to type your content in markdown involving minimal code
-3. Open a bash terminal (Unix) or command prompt (Microsoft Windows) in the master directory of your template, and let <code>jekyll serve</code> do the magic!
+3. Open a bash terminal (UNIX) or command prompt (Microsoft Windows) in the master directory of your template, and let <code>jekyll serve</code> do the magic!
 
 <div class="message text-center" style="font-size:80%;">
 	<strong>Template used: <a href="https://www.github.com/poole/lanyon" style="text-decoration:none;">Lanyon</a>&nbsp; Authored by: <a href="https://www.github.com/mdo/" style="text-decoration:none;">Mark Otto</a></strong>
 	<br>Open sourced under the <a href="{{ site.baseurl }}/LICENSE.md" style="text-decoration:none;">MIT License</a>
 </div>
 
-Some pretty useful frameworks/tweaks that I decided to embed in my template for a better UX
+Some pretty useful frameworks/tweaks that I decided to embed in my template for a better UI/UX
 
 <div style="text-align: center;">
 <div class="btn-group">
