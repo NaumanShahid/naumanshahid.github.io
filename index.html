@@ -1,51 +1,10 @@
----
-layout: default
-title: Blog
----
-
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
-<hr>
-{% if paginator.total_pages > 1 %}
-	<ul class="pagination justify-content-center" style="margin-top:0;">
-			{% if paginator.previous_page %}
-				<li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Previous</a></li>
-			{% else %}
-				<li class="page-item disabled"><a class="page-link">Previous</a></li>
-			{% endif %}
-			
-			{% for page in (1..paginator.total_pages) %}
-				{% if page == paginator.page %}
-					<li class="page-item disabled"><a class="page-link"><strong>{{ page }}</strong></a></li>
-				{% elsif page == 1 %}
-					<li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
-				{% else %}
-					<li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
-				{% endif %}
-			{% endfor %}
-			
-			{% if paginator.next_page %}
-				<li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a></li>
-			{% else %}
-				<li class="page-item"><a class="page-link">Next</a></li>
-			{% endif %}
-	</ul>
-{% else %}
-	<ul class="pagination justify-content-center" style="margin-top:0;">
-		<li class="page-item disabled"><a class="page-link">Previous</a></li>
-		<li class="page-item disabled"><a class="page-link">Next</a></li>
-	</ul>
-{% endif %}
+<html>
+<head>
+<title>Nauman Shahid - GitHub</title>
+</head>
+<body>
+<br>
+<p><font face="Segoe UI Semibold" style="text-transform: uppercase"><center>Landing soon...</center></font></p><br>
+<p><font face="Segoe UI Light" style="text-transform: uppercase"><center>Copyright &copy Nauman Shahid 2018</center></font></p>
+</body>
+</html>
