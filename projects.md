@@ -441,7 +441,7 @@ title: Projects
 		<small>
 		<small>
 		<a class="list-group-item" style="padding:2.5%;">Frequency Meter using Atmel AT89C51 MCU</a>
-		<a class="list-group-item" style="padding:2.5%;">Successfully able to register frequencies upto ~58 kH</a>
+		<a class="list-group-item" style="padding:2.5%;">Successfully able to register frequencies upto ~58 kHz</a>
 		<a class="list-group-item" style="padding:2.5%;">Proteus used for Design and Simulation</a>
 		<a class="list-group-item" style="padding:2.5%;">Advisor: Dr. Sajid Gul Khawaja (National University of Sciences and Technology, Islamabad, Pakistan)</a>
 		<a class="list-group-item" style="padding:2.5%;">EC-302: Microprocessor Based Design</a>
