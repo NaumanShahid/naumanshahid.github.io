@@ -10,7 +10,7 @@ title: Projects
 	<div class="col" style="word-wrap:break-word;">
 		<strong>CS-6263 Introduction to Cyber-Physical Systems Security</strong>
 		<br>
-		<small><em>Dr. Raheem A Beyah (Ph.D. GeorgiaTech), Dr. David Joyner (Ph.D. GeorgiaTech)</em></small><br>
+		<small><em>Dr. Raheem A Beyah (Ph.D. Georgia Tech), Dr. David Joyner (Ph.D. Georgia Tech)</em></small><br>
 		<small><em>Fall 2021</em></small><br>
 
 		<div class="list-group">
@@ -56,7 +56,7 @@ title: Projects
 	<div class="col" style="word-wrap:break-word;">
 		<strong>CS-6200 Graduate Introduction to Operating Systems</strong>
 		<br>
-		<small><em>Dr. Ada Gavrilovska (Ph.D. GeorgiaTech)</em></small><br>
+		<small><em>Dr. Ada Gavrilovska (Ph.D. Georgia Tech)</em></small><br>
 		<small><em>Summer 2021</em></small><br>
 
 		<div class="list-group">
@@ -100,7 +100,7 @@ title: Projects
 	<div class="col" style="word-wrap:break-word;">
 		<strong>CS-6250 Computer Networks</strong>
 		<br>
-		<small><em>Dr. Maria Konte (Ph.D. GeorgiaTech)</em></small><br>
+		<small><em>Dr. Maria Konte (Ph.D. Georgia Tech)</em></small><br>
 		<small><em>Spring 2021</em></small><br>
 
 		<div class="list-group">
