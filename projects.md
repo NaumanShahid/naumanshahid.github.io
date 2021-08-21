@@ -3,18 +3,229 @@ layout: page
 title: Projects
 ---
 
-#### A listing of some of the projects I completed during the course of my professional career, undergraduate studies, and high school
+#### A listing of some of the projects I completed during the course of my professional career, graduate and undergraduate studies, and high school
 <div class="w-100" style="padding:10px;"><hr></div>
 <div class="container-fluid row">
-	
+
+	<div class="col" style="word-wrap:break-word;">
+		<strong>CS-6263 Introduction to Cyber-Physical Systems Security</strong>
+		<br>
+		<small><em>Dr. Raheem A Beyah (Ph.D. GeorgiaTech), Dr. David Joyner (Ph.D. GeorgiaTech)</em></small><br>
+		<small><em>Fall 2021</em></small><br>
+
+		<div class="list-group">
+		<small>
+		<small>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li>In progress</li>
+			</ul>
+		</a>
+
+		</small>
+		</small>
+		</div>
+	</div>
+
+	<div class="w-100" style="padding:10px;"><hr></div>
+
+	<div class="col" style="word-wrap:break-word;">
+		<strong>CS-6210 Advanced Operating Systems</strong>
+		<br>
+		<small><em>Dr. Umakishore Ramachandran (Ph.D. University of Wisconsin, Madison)</em></small><br>
+		<small><em>Fall 2021</em></small><br>
+
+		<div class="list-group">
+		<small>
+		<small>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li>In progress</li>
+			</ul>
+		</a>
+
+		</small>
+		</small>
+		</div>
+	</div>
+
+	<div class="w-100" style="padding:10px;"><hr></div>
+
+	<div class="col" style="word-wrap:break-word;">
+		<strong>CS-6200 Graduate Introduction to Operating Systems</strong>
+		<br>
+		<small><em>Dr. Ada Gavrilovska (Ph.D. GeorgiaTech)</em></small><br>
+		<small><em>Summer 2021</em></small><br>
+
+		<div class="list-group">
+		<small>
+		<small>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<strong>File-server</strong>
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+ 			<li>Implementation of a multi-threaded (boss-worker pattern) file server servicing a pool of clients in C</li>
+			</ul>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<strong>Proxy server using Inter-Process Communication</strong>
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+ 			<li>Implementation of a proxy server to act as an intermediary between a file server and its clients using libcurl's Easy Interface</li>
+ 			<li>Implementation of a cache server to act as an alternate file source in a client-proxy-server setup</li>
+ 			<li>Support for multiple proxy servers by incorporating multi-threading constructs in addition to shared memory and message queues (POSIX and SystemV)</li>
+			</ul>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<strong>Distributed File System using RPC (Remote Procedure Call) protocol service</strong>
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+ 			<li>Built a series of remote procedure calls (RPCs) and message types that fetch, store, list, and delete files in addition to getting file attributes/statistics in a distributed file system (one file server and multiple clients)</li>
+ 			<li>Used gRPC (Google RPC) for RPC services and Protocol Buffers as the IDL (Interface Definition Language)</li>
+ 			<li>Watcher thread implemented to be on a lookout for changes in the mounted directories</li>
+			<li>File content synced between clients and servers using asynchronous calls between server and clients to update the client/clients in case a file/files/directory changes on the server and vice versa</li>
+			<li>Mutexes and condition variables set in place in order to avoid race conditions and to avoid multiple writers from accessing the same file/directory</li>
+			</ul>
+		</a>
+
+		</small>
+		</small>
+		</div>
+	</div>
+
+	<div class="w-100" style="padding:10px;"><hr></div>
+
+	<div class="col" style="word-wrap:break-word;">
+		<strong>CS-6250 Computer Networks</strong>
+		<br>
+		<small><em>Dr. Maria Konte (Ph.D. GeorgiaTech)</em></small><br>
+		<small><em>Spring 2021</em></small><br>
+
+		<div class="list-group">
+		<small>
+		<small>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li>Simulating networks and topologies (simple, complex, datacenter) in Mininet</li>
+			<li>Spanning tree protocol implementation</li>
+			<li>Distance Vector Routing protocol implementation</li>
+			<li>SDN firewall (using POX OpenFlow Controller) implementation</li>
+			<li>BGP hijacking in a sandbox environment</li>
+			<li>BGP measurements</li>
+			</ul>
+		</a>
+
+		</small>
+		</small>
+		</div>
+	</div>
+
+	<div class="w-100" style="padding:10px;"><hr></div>
+
+	<div class="col" style="word-wrap:break-word;">
+		<strong>CS-6290 High Performance Computer Architecture</strong>
+		<br>
+		<small><em>Dr. Milos Prvulovic (Ph.D. UIUC)</em></small><br>
+		<small><em>Fall 2020</em></small><br>
+
+		<div class="list-group">
+		<small>
+		<small>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<strong>SESC (Super ESCalar) Simulator</strong>
+ 			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li>Benchmarks: splash2 suite (Stanford Parallel Applications for Shared-Memory), lu decomposition, raytrace, fmm</li>
+ 			<li>Profiling MIPS compatible binaries and tweaking CPU and cache configuration parameters in order to achieve optimal branch prediction accuracy and execution times in out-of-order processors</li>
+ 			<li>Implemented a new cache policy (Next-to-LRU) in the SESC simulator</li>
+ 			<li>Implemented new profiling counters for read/write cache misses (compulsory, conflict, capacity, replacement, coherence) in the SECS simulator</li>
+ 			<li>Modified cache policy (Random, LRU, Next-to-LRU), cache size, associativity (4-way set associative, direct mapped), latency</li>
+ 			<li>Modified branch predictors (Not-taken, Hybrid)</li>
+ 			<li>Conclusions drawn by comparing compulsory, conflict, and capacity read/write misses in 4-way set-associative and direct-mapped caches</li>
+			<li>In multi-core processors, conclusions drawn by comparing compulsory, replacement, and coherence read/write misses after tweaking number of threads in CPU configurations</li>
+			</ul>
+		</a>
+
+		</small>
+		</small>
+		</div>
+	</div>
+
+	<div class="w-100" style="padding:10px;"><hr></div>
+
+	<div class="col" style="word-wrap:break-word;">
+		<strong>CS-6023 Introduction to Information Security</strong>
+		<br>
+		<small><em>Dr. Mustaque Ahamad (Ph.D. SUNY Stony Brook), Dr. Wenke Lee (Ph.D. Columbia)</em></small><br>
+		<small><em>Fall 2020</em></small><br>
+
+		<div class="list-group">
+		<small>
+		<small>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li><strong>Software security</strong> Buffer overflow - implement a stack overflow attack and a return-to-libc buffer overflow attack in a sandbox environment</li>
+ 			<li><strong>Malware analysis</strong> Analyze malware samples using Cuckoo and report the findings of various malware behaviors</li>
+ 			<li><strong>Cryptography</strong> Exploiting RSA vulnerabilities using Python scripting (Broadcast RSA attack, detection of weak keys in network devices, get private key in a small key-space)</li>
+ 			<li><strong>Web security</strong> Implement SQL Injection, XSS, and XSRF attacks in a sandbox environment</li>
+			</ul>
+		</a>
+
+		</small>
+		</small>
+		</div>
+	</div>
+
+	<div class="w-100" style="padding:10px;"><hr></div>
+
+	<div class="col" style="word-wrap:break-word;">
+		<strong>CS-6291 Embedded Software Optimization (also referred to as Embedded System Optimization)</strong>
+		<br>
+		<small><em>Dr. Santosh Pande (Ph.D. NC State)</em></small><br>
+		<small><em>Summer 2020</em></small><br>
+
+		<div class="list-group">
+		<small>
+		<small>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<strong>VLIW Scheduler</strong>
+ 			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li>Developed a VLIW Scheduler to convert 1-wide into 4-wide VEX ISA instructions</li>
+ 			<li>Handled shared resource accesses and computed data dependence graphs i.e. memory and register dependencies</li>
+ 			<li>Computed schedules with the least number of cycles using various tie-breaking (to decide which instruction goes next) heuristics</li>
+			</ul>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<strong>ARM and THUMB partitioning in RISC programs</strong>
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+ 			<li>Convert CISC programs into RISC programs to be executed and benchmarked on an ARMv8 (Cortex-A53) platform</li>
+ 			<li>Benchmarks: jpeg-6b, mpeg2enc, mpeg2dec</li>
+ 			<li>Libraries divided into ARM and THUMB partitions (procedure, file, library scope) after profiling</li>
+ 			<li>Partitions tweaked to achieve optimal execution times and binary sizes</li>
+			</ul>
+		</a>
+
+		</small>
+		</small>
+		</div>
+	</div>
+
+	<div class="w-100" style="padding:10px;"><hr></div>
+
 	<div class="col" style="word-wrap:break-word;">
 		<strong>Enterprise Network Messaging System</strong>
 		<br>
 		<small><em>(circa 2017)</em></small>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<div class="list-group">
 		<small>
@@ -28,7 +239,7 @@ title: Projects
 		</small>
 		</div>
 	</div>
-	
+
 	<div class="col">
 		<center>
 			<div class="list-group">
@@ -36,17 +247,17 @@ title: Projects
 			</div>
 		</center>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"><hr></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<strong>An FPGA based approach to deep packet inspection for the purpose of application aware routing in content delivery networks</strong>
 		<br>
 		<small><em>(circa 2014)</em></small>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<div class="list-group">
 		<small>
@@ -61,7 +272,7 @@ title: Projects
 		</small>
 		</div>
 	</div>
-	
+
 	<div class="col">
 		<center>
 			<div class="list-group">
@@ -70,17 +281,17 @@ title: Projects
 			</div>
 		</center>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"><hr></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<strong>Multi-threaded client-server communication protocol</strong>
 		<br>
 		<small><em>(circa 2012)</em></small>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<div class="list-group">
 		<small>
@@ -94,7 +305,7 @@ title: Projects
 		</small>
 		</div>
 	</div>
-	
+
 	<div class="col">
 		<center>
 			<div class="list-group">
@@ -102,17 +313,17 @@ title: Projects
 			</div>
 		</center>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"><hr></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<strong>Compiler Design</strong>
 		<br>
 		<small><em>(circa 2013)</em></small>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<div class="list-group">
 		<small>
@@ -125,7 +336,7 @@ title: Projects
 		</small>
 		</div>
 	</div>
-	
+
 	<div class="col">
 		<center>
 			<div class="list-group">
@@ -133,17 +344,17 @@ title: Projects
 			</div>
 		</center>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"><hr></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<strong>Speaker Recognition</strong>
 		<br>
 		<small><em>(circa 2013)</em></small>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<div class="list-group">
 		<small>
@@ -156,7 +367,7 @@ title: Projects
 		</small>
 		</div>
 	</div>
-	
+
 	<div class="col">
 		<center>
 			<div class="list-group">
@@ -164,17 +375,17 @@ title: Projects
 			</div>
 		</center>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"><hr></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<strong>Feature Recognition and Tracking in real-time video feed</strong>
 		<br>
 		<small><em>(circa 2013)</em></small>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<div class="list-group">
 		<small>
@@ -188,7 +399,7 @@ title: Projects
 		</small>
 		</div>
 	</div>
-	
+
 	<div class="col">
 		<center>
 			<div class="list-group">
@@ -198,17 +409,17 @@ title: Projects
 			</div>
 		</center>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"><hr></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<strong>Search Algorithms</strong>
 		<br>
 		<small><em>(circa 2012)</em></small>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<div class="list-group">
 		<small>
@@ -221,7 +432,7 @@ title: Projects
 		</small>
 		</div>
 	</div>
-	
+
 	<div class="col">
 		<center>
 			<div class="list-group">
@@ -229,17 +440,17 @@ title: Projects
 			</div>
 		</center>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"><hr></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<strong>Remote Circuit Control and Actuation</strong>
 		<br>
 		<small><em>(circa 2013)</em></small>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<div class="list-group">
 		<small>
@@ -256,7 +467,7 @@ title: Projects
 		</small>
 		</div>
 	</div>
-	
+
 	<div class="col">
 		<center>
 			<div class="list-group">
@@ -264,17 +475,17 @@ title: Projects
 			</div>
 		</center>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"><hr></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<strong>Stock Exchange Trend Logging and Analysis</strong>
 		<br>
 		<small><em>(circa 2013)</em></small>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<div class="list-group">
 		<small>
@@ -289,7 +500,7 @@ title: Projects
 		</small>
 		</div>
 	</div>
-	
+
 	<div class="col">
 		<center>
 			<div class="list-group">
@@ -297,17 +508,17 @@ title: Projects
 			</div>
 		</center>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"><hr></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<strong>Assembler</strong>
 		<br>
 		<small><em>(circa 2013)</em></small>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<div class="list-group">
 		<small>
@@ -319,7 +530,7 @@ title: Projects
 		</small>
 		</div>
 	</div>
-	
+
 	<div class="col">
 		<center>
 			<div class="list-group">
@@ -327,17 +538,17 @@ title: Projects
 			</div>
 		</center>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"><hr></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<strong>DC Motor Position Control using PID Algorithm</strong>
 		<br>
 		<small><em>(circa 2014)</em></small>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<div class="list-group">
 		<small>
@@ -350,7 +561,7 @@ title: Projects
 		</small>
 		</div>
 	</div>
-	
+
 	<div class="col">
 		<center>
 			<div class="list-group">
@@ -358,17 +569,17 @@ title: Projects
 			</div>
 		</center>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"><hr></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<strong>2D Drawing Application</strong>
 		<br>
 		<small><em>(circa 2012)</em></small>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<div class="list-group">
 		<small>
@@ -381,7 +592,7 @@ title: Projects
 		</small>
 		</div>
 	</div>
-	
+
 	<div class="col">
 		<center>
 			<div class="list-group">
@@ -389,17 +600,17 @@ title: Projects
 			</div>
 		</center>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"><hr></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<strong>Power Supply</strong>
 		<br>
 		<small><em>(circa 2012)</em></small>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<div class="list-group">
 		<small>
@@ -414,7 +625,7 @@ title: Projects
 		</small>
 		</div>
 	</div>
-	
+
 	<div class="col">
 		<center>
 			<div class="list-group">
@@ -425,17 +636,17 @@ title: Projects
 			</div>
 		</center>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"><hr></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<strong>Frequency Meter</strong>
 		<br>
 		<small><em>(circa 2013)</em></small>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<div class="list-group">
 		<small>
@@ -449,7 +660,7 @@ title: Projects
 		</small>
 		</div>
 	</div>
-	
+
 	<div class="col">
 		<center>
 			<div class="list-group">
@@ -457,17 +668,17 @@ title: Projects
 			</div>
 		</center>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"><hr></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<strong>Text Editor with Encryption</strong>
 		<br>
 		<small><em>(circa 2009)</em></small>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<div class="list-group">
 		<small>
@@ -479,7 +690,7 @@ title: Projects
 		</small>
 		</div>
 	</div>
-	
+
 	<div class="col">
 		<center>
 			<div class="list-group">
@@ -487,48 +698,48 @@ title: Projects
 			</div>
 		</center>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"><hr></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<strong>Some other projects I undertook during the course of my undergraduate studies</strong>
 		<br>
 		<small><em>(circa 2010 - 2014)</em></small>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"></div>
-	
+
 	<div class="col" style="word-wrap:break-word;">
 		<div class="list-group">
 		<small>
 		<small>
-		
+
 		<a class="list-group-item" style="padding:2.5%;">
 			<strong>Quad-Core Micro-Coded State Machine with a custom 8-bit RISC architecture</strong><br>
 			Development Environment and Tools: Xilinx ISE Design Suite, Mentor Graphics ModelSim, Verilog<br>
 			EC-423: Digital System Design
 		</a>
-		
+
 		<a class="list-group-item" style="padding:2.5%;">
 			<strong>Quadrature Phase Shift Keying Digital modulation Scheme implementation</strong><br>
 			Development Environment and Tools: MATLAB, Microsoft Visual C#<br>
 			EC-422: Digital Communication
 		</a>
-		
+
 		<a class="list-group-item" style="padding:2.5%;">
 			<strong>Data transfer between two terminals over Parallel Port (IEEE 1284 DB-25 Connector)</strong><br>
 			Development Environment and Tools: Turbo C++<br>
 			EC-111: Algorithms and Computing
 		</a>
-		
+
 		</small>
 		</small>
 		</div>
 	</div>
-	
+
 	<div class="w-100" style="padding:10px;"></div>
-	
-</div>  
+
+</div>
 
 <br>
 <br>
