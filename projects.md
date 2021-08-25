@@ -8,7 +8,7 @@ title: Projects
 <div class="container-fluid row">
 
 	<div class="col" style="word-wrap:break-word;">
-		<strong>CS-6263 Introduction to Cyber-Physical Systems Security</strong>
+		<strong>CS-6263/ECE-8813 Introduction to Cyber-Physical Systems Security</strong>
 		<br>
 		<small><em>Dr. Raheem A Beyah (Ph.D. Georgia Tech), Dr. David Joyner (Ph.D. Georgia Tech)</em></small><br>
 		<small><em>Fall 2021</em></small><br>
