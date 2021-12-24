@@ -18,9 +18,43 @@ title: Projects
 		<small>
 
 		<a class="list-group-item" style="padding:2.5%;">
-			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>In progress</li>
-			</ul>
+		<strong>Paper Presentation</strong>
+		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li>Secure and Efficient Software-based Attestation for Industrial Control Devices with ARM Processors</li>
+		</ul>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<strong>Design and Implementation of Controllers for Industrial Control Systems using Factory I/O, Control I/O, and block-diagram logic programming</strong>
+			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/mp1-part1a.png" data-lightbox="Projects" data-title="Water Tank System" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/mp1-part1a.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/mp1-part2ab.png" data-lightbox="Projects" data-title="Sorting Station" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/mp1-part2ab.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0" href="{{ site.baseurl }}/public/projects/mp1-part3ab.png" data-lightbox="Projects" data-title="Production Line" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/mp1-part3ab.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+		<strong>Ladder Logic Programming using OpenPLC</strong>
+		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li>Robot Path</li>
+			<li>Traffic Lights</li>
+			<li>Tank Balancer</li>
+			<li>Stirring Systems</li>
+			<li>Car Parking</li>
+		</ul>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+		<strong>Reconnaissance and Attack on ICS Networks</strong>
+		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li>Understanding the Modbus protocol</li>
+			<li>Interfacing with Industrial Control Systems using Mininet, Python and Wireshark</li>
+		</ul>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+		<strong>Vulnerability Exploitation in Industrial Control Systems Protocol</strong>
+		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li>Implementation of buffer overflow exploits using x86 Assembly, C, and GDB</li>
+		</ul>
 		</a>
 
 		</small>
@@ -41,8 +75,39 @@ title: Projects
 		<small>
 
 		<a class="list-group-item" style="padding:2.5%;">
+			<strong>Virtual Machine Scheduling in KVM</strong>
 			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>In progress</li>
+			<li>Implemented a vCPU scheduler and a memory coordinator to dynamically manage resources assigned to each guest virtual machine</li>
+			<li>Memory ballooning driver implementation</li>
+			</ul>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<strong>Barrier Synchronization</strong>
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li>Implementation of barrier synchronization algorithms from the paper titled "Algorithms for Scalable Synchronization on Shared-Memory Multiprocessors, by John M. Mellor-Crummey (Rice University) and Michael L. Scott (University of Rochester), ACM Transactions on Computer Systems Vol. 9, No. 1, February, 1991"</li>
+			<li>Barriers implemented using OpenMP: Sense-Reversing Centralized Barrier and the MCS Tree Barrier</li>
+			<li>Barriers implemented using Open MPI: MCS Tree Barrier and Dissemination Barrier</li>
+			<li>Barriers benchmarked on Georgia Tech's Supercomputing cluster, PACE (Partnership for an Advanced Computing Environment)</li>
+			<li>Simulations carried out on 1-12 CPUs with each CPU capable of executing upto 12 simultaneous threads</li>
+			</ul>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<strong>A multi-threaded e-Commerce Store in a distributed service</strong>
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li>Distributed service implementation using gRPC (Google RPC) for RPC services and Protocol Buffers as the IDL (Interface Definition Language</li>
+			<li>Asynchronous RPC communication model: <b><i>Clients <---> Store Service <---> Vendors</i></b></li>
+			</ul>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<strong>Implementation of the MapReduce programming model in a distributed service</strong>
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li>Distributed service implementation using gRPC (Google RPC) for RPC services and Protocol Buffers as the IDL (Interface Definition Language</li>
+			<li>In line with the specifications as per the paper titled "MapReduce: Simplified Data Processing on Large Clusters, J. Dean, S. Ghemawat, Google Inc. OSDI 2004"</li>
+			<li>Creation of file shards/partitions for mapping</li>
+			<li>Implementation of a Mapper and a Reducer service</li>
 			</ul>
 		</a>
 
