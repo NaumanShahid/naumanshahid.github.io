@@ -6,6 +6,17 @@
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-85638086-1', 'auto');
+  ga('require', 'ipMeta', {
+      apiKey: '719ea743350c90ec28266af67033f0f6ac2854c08852505657c8cfc221bfe261',
+      serviceProvider: 'dimension1',
+      networkDomain: 'dimension2',
+      networkType: 'dimension3',
+  });
+  ga('ipMeta:loadNetworkFields');
   ga('send', 'pageview');
+</script>
+
+<!-- IpMeta must be included after Google Analytics -->
+    <script async src="https://ipmeta.io/plugin.js"></script>
 
 </script>
