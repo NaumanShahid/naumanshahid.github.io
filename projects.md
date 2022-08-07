@@ -8,6 +8,110 @@ title: Projects
 <div class="container-fluid row">
 
 	<div class="col" style="word-wrap:break-word;">
+		<strong>CS-6515 Graduate Algoithms</strong>
+		<br>
+		<small><em>Dr. Eric Vigoda (Ph.D. UC Berkeley)</em></small><br>
+		<small><em>Summer 2023 (Expected)</em></small><br>
+
+		<div class="list-group">
+		<small>
+		<small>
+
+		<a class="list-group-item" style="padding:2.5%;">
+		<strong>...</strong>
+		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li>...</li>
+		</ul>
+		</a>
+
+		</small>
+		</small>
+		</div>
+	</div>
+	<div class="w-100" style="padding:10px;"><hr></div>
+
+	<div class="col" style="word-wrap:break-word;">
+		<strong>CS-7641 Machine Learning</strong>
+		<br>
+		<small><em>Dr. Charles Isbell (Ph.D. MIT), Dr. Michael Littman (Ph.D. Brown)</em></small><br>
+		<small><em>Spring 2023 (Expected)</em></small><br>
+
+		<div class="list-group">
+		<small>
+		<small>
+
+		<a class="list-group-item" style="padding:2.5%;">
+		<strong>...</strong>
+		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li>...</li>
+		</ul>
+		</a>
+
+		</small>
+		</small>
+		</div>
+	</div>
+	<div class="w-100" style="padding:10px;"><hr></div>
+
+	<div class="col" style="word-wrap:break-word;">
+		<strong>CS-6601 Artificial Intelligence</strong>
+		<br>
+		<small><em>Dr. Thad Starner (Ph.D. MIT)</em></small><br>
+		<small><em>Summer 2022</em></small><br>
+
+		<div class="list-group">
+		<small>
+		<small>
+
+		<a class="list-group-item" style="padding:2.5%;">
+		<strong>Isolation Player</strong>
+		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li>Use the MINIMAX and alpha-beta pruning techniques and experiment with evaluation functions to create a program that can play a variant of the game Isolation better than a human</li>
+		</ul>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+		<strong>Search</strong>
+		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li>Experiment with various search techniques to discover the most efficient way to find the shortest path between three places in a city</li>
+		</ul>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+		<strong>Bayes Nets</strong>
+		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li>Implement Bayesian networks and sampling algorithms to gain a better understanding of probabilistic systems</li>
+		</ul>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+		<strong>Decision Trees</strong>
+		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li>Build, train, and test several decision tree models to perform basic classification tasks</li>
+		</ul>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+		<strong>Gaussian Mixture Models</strong>
+		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li>Implement k-means clustering and Gaussian mixture models to perform basic image segmentation. Research, implement, and test the Bayesian Information Criterion to guarantee a more robust image segmentation</li>
+		</ul>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+		<strong>Hidden Markov Models</strong>
+		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li>Implement the Viterbi and Forward-Backward algorithm to recognize signals using HMMs</li>
+		</ul>
+		</a>
+
+		</small>
+		</small>
+		</div>
+	</div>
+	<div class="w-100" style="padding:10px;"><hr></div>
+
+	<div class="col" style="word-wrap:break-word;">
 		<strong>CS-6263/ECE-8813 Introduction to Cyber-Physical Systems Security</strong>
 		<br>
 		<small><em>Dr. Raheem A Beyah (Ph.D. Georgia Tech), Dr. David Joyner (Ph.D. Georgia Tech)</em></small><br>
