@@ -41,12 +41,56 @@ title: Projects
 		<small>
 
 		<a class="list-group-item" style="padding:2.5%;">
-		<strong>...</strong>
+		<strong>Supervised Learning</strong>
 		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>...</li>
+			<li>Implemented of Decision Trees (pruned), Neural Networks, Boosting, Support Vector Machines, and K-nearest neighbours</li>
+			<li>Training the aforementioned algorithms on two large datasets in order to analyse how they perform in testing and validation phases</li>
+			<li>Performed hyperparamter tuning to achieve optimal accuracy</li>
+			<li>Learning curves generated in order to compare their performance</li>
 		</ul>
 		</a>
 
+		<a class="list-group-item" style="padding:2.5%;">
+		<strong>Randomized Optimization</strong>
+		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li>The aim of this assignment is to get acquainted with localized random search algorithms, namely, Randomized Hill Climbing (RHC), Simulated Annealing (SA), Genetic Algorithms (GA), and Mutual Information Maximizing Input Clustering (MIMIC). I solved fives problems of mathematical and discrete nature (that can be solved using randomized optimization techniques) with the aforementioned algorithms (randomized optimization techniques for choice of a better phrase) in order to find the maximum fitness function</li>
+			<li>Problems solved and analysed:
+				<ul>
+					<li>Four-Peaks</li>
+					<li>N-Queens</li>
+					<li>Knapsack</li>
+					<li>One-Max</li>
+					<li>Max-K-Color</li>
+				</ul>
+			</li>
+		</ul>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+		<strong>Unsupervised Learning and Dimensionality Reduction</strong>
+		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li>The aim of this assignment is to acquaint oneself with a couple of unsupervised learning and dimensionality reduction techniques on two large datasets of our choice (with multiple features so that we have enough features to select/reduce)</li>
+			<li>Implemented K-Means Clustering and Expectation Maximization as clustering algorithms for unsupervised learning</li>
+			<li>Implemented PCA (Principal Component Analysis), ICA (Independent Component Analysis), Randomized Projects, and Feature Variance Thresholding as dimensionality reducation algorithms</li>
+			<li>Analysed the performance of combinations of the aforementioned clustering and dimensionality techniques on the chosen datasets and performed hyperparameter tuning in order to yield accurate modeling results</li>
+		</ul>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+		<strong>Markov Decision Processes</strong>
+		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+			<li>Explored various reinforcement learning techniques an agent can use to make decisions.</li>
+			<li>An analysis of two interesting Markov Decision Processes (MDPs) is conducted using two planning algorithms, namely, value iteration and policy iteration, along with one reinforcement learning algorithm, namely, Q-Learning.</li>
+			<li>The MDPs are selected carefully to be able to draw conclusions as to which algorithm suits what type of problem best (non-grid world, grid world, number of states, etc.).</li>
+			<li>Chosen MDPs:</li>
+			<ul>
+				<li>Frozen Lake 4x4</li>
+				<li>Frozen Lake 16x16</li>
+				<li>Taxi</li>
+			</ul>
+			<li>Experiments conducted using Gymnasium (a maintained fork of OpenAI's Gym library)</li>
+		</ul>
+		</a>
 		</small>
 		</small>
 		</div>
