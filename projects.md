@@ -7,950 +7,979 @@ title: Projects
 <div class="w-100" style="padding:10px;"><hr></div>
 <div class="container-fluid row">
 
-	<div class="col" style="word-wrap:break-word;">
-		<strong>CS-6515 Graduate Algoithms</strong>
-		<br>
-		<small><em>Dr. Eric Vigoda (Ph.D. UC Berkeley)</em></small><br>
-		<small><em>Summer 2023 (Expected)</em></small><br>
-
-		<div class="list-group">
-		<small>
-		<small>
-
-		<a class="list-group-item" style="padding:2.5%;">
-		<strong>...</strong>
-		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>...</li>
-		</ul>
-		</a>
-
-		</small>
-		</small>
-		</div>
-	</div>
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>CS-7641 Machine Learning</strong>
-		<br>
-		<small><em>Dr. Charles Isbell (Ph.D. MIT), Dr. Michael Littman (Ph.D. Brown)</em></small><br>
-		<small><em>Spring 2023 (Expected)</em></small><br>
-
-		<div class="list-group">
-		<small>
-		<small>
-
-		<a class="list-group-item" style="padding:2.5%;">
-		<strong>Supervised Learning</strong>
-		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>Implemented of Decision Trees (pruned), Neural Networks, Boosting, Support Vector Machines, and K-nearest neighbours</li>
-			<li>Training the aforementioned algorithms on two large datasets in order to analyse how they perform in testing and validation phases</li>
-			<li>Performed hyperparamter tuning to achieve optimal accuracy</li>
-			<li>Learning curves generated in order to compare their performance</li>
-		</ul>
-		</a>
-
-		<a class="list-group-item" style="padding:2.5%;">
-		<strong>Randomized Optimization</strong>
-		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>The aim of this assignment is to get acquainted with localized random search algorithms, namely, Randomized Hill Climbing (RHC), Simulated Annealing (SA), Genetic Algorithms (GA), and Mutual Information Maximizing Input Clustering (MIMIC). I solved fives problems of mathematical and discrete nature (that can be solved using randomized optimization techniques) with the aforementioned algorithms (randomized optimization techniques for choice of a better phrase) in order to find the maximum fitness function</li>
-			<li>Problems solved and analysed:
-				<ul>
-					<li>Four-Peaks</li>
-					<li>N-Queens</li>
-					<li>Knapsack</li>
-					<li>One-Max</li>
-					<li>Max-K-Color</li>
-				</ul>
-			</li>
-		</ul>
-		</a>
-
-		<a class="list-group-item" style="padding:2.5%;">
-		<strong>Unsupervised Learning and Dimensionality Reduction</strong>
-		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>The aim of this assignment is to acquaint oneself with a couple of unsupervised learning and dimensionality reduction techniques on two large datasets of our choice (with multiple features so that we have enough features to select/reduce)</li>
-			<li>Implemented K-Means Clustering and Expectation Maximization as clustering algorithms for unsupervised learning</li>
-			<li>Implemented PCA (Principal Component Analysis), ICA (Independent Component Analysis), Randomized Projects, and Feature Variance Thresholding as dimensionality reducation algorithms</li>
-			<li>Analysed the performance of combinations of the aforementioned clustering and dimensionality techniques on the chosen datasets and performed hyperparameter tuning in order to yield accurate modeling results</li>
-		</ul>
-		</a>
-
-		<a class="list-group-item" style="padding:2.5%;">
-		<strong>Markov Decision Processes</strong>
-		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>Explored various reinforcement learning techniques an agent can use to make decisions.</li>
-			<li>An analysis of two interesting Markov Decision Processes (MDPs) is conducted using two planning algorithms, namely, value iteration and policy iteration, along with one reinforcement learning algorithm, namely, Q-Learning.</li>
-			<li>The MDPs are selected carefully to be able to draw conclusions as to which algorithm suits what type of problem best (non-grid world, grid world, number of states, etc.).</li>
-			<li>Chosen MDPs:</li>
-			<ul>
-				<li>Frozen Lake 4x4</li>
-				<li>Frozen Lake 16x16</li>
-				<li>Taxi</li>
-			</ul>
-			<li>Experiments conducted using Gymnasium (a maintained fork of OpenAI's Gym library)</li>
-		</ul>
-		</a>
-		</small>
-		</small>
-		</div>
-	</div>
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>CS-6601 Artificial Intelligence</strong>
-		<br>
-		<small><em>Dr. Thad Starner (Ph.D. MIT)</em></small><br>
-		<small><em>Summer 2022</em></small><br>
-
-		<div class="list-group">
-		<small>
-		<small>
-
-		<a class="list-group-item" style="padding:2.5%;">
-		<strong>Isolation Player</strong>
-		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>Use the MINIMAX and alpha-beta pruning techniques and experiment with evaluation functions to create a program that can play a variant of the game Isolation better than a human</li>
-		</ul>
-		</a>
-
-		<a class="list-group-item" style="padding:2.5%;">
-		<strong>Search</strong>
-		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>Experiment with various search techniques to discover the most efficient way to find the shortest path between three places in a city</li>
-		</ul>
-		</a>
-
-		<a class="list-group-item" style="padding:2.5%;">
-		<strong>Bayes Nets</strong>
-		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>Implement Bayesian networks and sampling algorithms to gain a better understanding of probabilistic systems</li>
-		</ul>
-		</a>
-
-		<a class="list-group-item" style="padding:2.5%;">
-		<strong>Decision Trees</strong>
-		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>Build, train, and test several decision tree models to perform basic classification tasks</li>
-		</ul>
-		</a>
-
-		<a class="list-group-item" style="padding:2.5%;">
-		<strong>Gaussian Mixture Models</strong>
-		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>Implement k-means clustering and Gaussian mixture models to perform basic image segmentation. Research, implement, and test the Bayesian Information Criterion to guarantee a more robust image segmentation</li>
-		</ul>
-		</a>
-
-		<a class="list-group-item" style="padding:2.5%;">
-		<strong>Hidden Markov Models</strong>
-		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>Implement the Viterbi and Forward-Backward algorithm to recognize signals using HMMs</li>
-		</ul>
-		</a>
-
-		</small>
-		</small>
-		</div>
-	</div>
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>CS-6263/ECE-8813 Introduction to Cyber-Physical Systems Security</strong>
-		<br>
-		<small><em>Dr. Raheem A Beyah (Ph.D. Georgia Tech), Dr. David Joyner (Ph.D. Georgia Tech)</em></small><br>
-		<small><em>Fall 2021</em></small><br>
-
-		<div class="list-group">
-		<small>
-		<small>
-
-		<a class="list-group-item" style="padding:2.5%;">
-		<strong>Paper Presentation</strong>
-		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>Secure and Efficient Software-based Attestation for Industrial Control Devices with ARM Processors</li>
-		</ul>
-		</a>
-
-		<a class="list-group-item" style="padding:2.5%;">
-			<strong>Design and Implementation of Controllers for Industrial Control Systems using Factory I/O, Control I/O, and block-diagram logic programming</strong>
-			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/mp1-part1a.png" data-lightbox="Projects" data-title="Water Tank System" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/mp1-part1a.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/mp1-part2ab.png" data-lightbox="Projects" data-title="Sorting Station" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/mp1-part2ab.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0" href="{{ site.baseurl }}/public/projects/mp1-part3ab.png" data-lightbox="Projects" data-title="Production Line" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/mp1-part3ab.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-		</a>
-
-		<a class="list-group-item" style="padding:2.5%;">
-		<strong>Ladder Logic Programming using OpenPLC</strong>
-		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>Robot Path</li>
-			<li>Traffic Lights</li>
-			<li>Tank Balancer</li>
-			<li>Stirring Systems</li>
-			<li>Car Parking</li>
-		</ul>
-		</a>
-
-		<a class="list-group-item" style="padding:2.5%;">
-		<strong>Reconnaissance and Attack on ICS Networks</strong>
-		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>Understanding the Modbus protocol</li>
-			<li>Interfacing with Industrial Control Systems using Mininet, Python and Wireshark</li>
-		</ul>
-		</a>
-
-		<a class="list-group-item" style="padding:2.5%;">
-		<strong>Vulnerability Exploitation in Industrial Control Systems Protocol</strong>
-		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>Implementation of buffer overflow exploits using x86 Assembly, C, and GDB</li>
-		</ul>
-		</a>
-
-		</small>
-		</small>
-		</div>
-	</div>
-
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>CS-6210 Advanced Operating Systems</strong>
-		<br>
-		<small><em>Dr. Umakishore Ramachandran (Ph.D. University of Wisconsin, Madison)</em></small><br>
-		<small><em>Fall 2021</em></small><br>
-
-		<div class="list-group">
-		<small>
-		<small>
-
-		<a class="list-group-item" style="padding:2.5%;">
-			<strong>Virtual Machine Scheduling in KVM</strong>
-			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>Implemented a vCPU scheduler and a memory coordinator to dynamically manage resources assigned to each guest virtual machine</li>
-			<li>Memory ballooning driver implementation</li>
-			</ul>
-		</a>
-
-		<a class="list-group-item" style="padding:2.5%;">
-			<strong>Barrier Synchronization</strong>
-			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>Implementation of barrier synchronization algorithms from the paper titled "Algorithms for Scalable Synchronization on Shared-Memory Multiprocessors, by John M. Mellor-Crummey (Rice University) and Michael L. Scott (University of Rochester), ACM Transactions on Computer Systems Vol. 9, No. 1, February, 1991"</li>
-			<li>Barriers implemented using OpenMP: Sense-Reversing Centralized Barrier and the MCS Tree Barrier</li>
-			<li>Barriers implemented using Open MPI: MCS Tree Barrier and Dissemination Barrier</li>
-			<li>Barriers benchmarked on Georgia Tech's Supercomputing cluster, PACE (Partnership for an Advanced Computing Environment)</li>
-			<li>Simulations carried out on 1-12 CPUs with each CPU capable of executing upto 12 simultaneous threads</li>
-			</ul>
-		</a>
-
-		<a class="list-group-item" style="padding:2.5%;">
-			<strong>A multi-threaded e-Commerce Store in a distributed service</strong>
-			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>Distributed service implementation using gRPC (Google RPC) for RPC services and Protocol Buffers as the IDL (Interface Definition Language</li>
-			<li>Asynchronous RPC communication model: <b><i>Clients <---> Store Service <---> Vendors</i></b></li>
-			</ul>
-		</a>
-
-		<a class="list-group-item" style="padding:2.5%;">
-			<strong>Implementation of the MapReduce programming model in a distributed service</strong>
-			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>Distributed service implementation using gRPC (Google RPC) for RPC services and Protocol Buffers as the IDL (Interface Definition Language</li>
-			<li>In line with the specifications as per the paper titled "MapReduce: Simplified Data Processing on Large Clusters, J. Dean, S. Ghemawat, Google Inc. OSDI 2004"</li>
-			<li>Creation of file shards/partitions for mapping</li>
-			<li>Implementation of a Mapper and a Reducer service</li>
-			</ul>
-		</a>
-
-		</small>
-		</small>
-		</div>
-	</div>
-
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>CS-6200 Graduate Introduction to Operating Systems</strong>
-		<br>
-		<small><em>Dr. Ada Gavrilovska (Ph.D. Georgia Tech)</em></small><br>
-		<small><em>Summer 2021</em></small><br>
-
-		<div class="list-group">
-		<small>
-		<small>
-
-		<a class="list-group-item" style="padding:2.5%;">
-			<strong>File-server</strong>
-			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
- 			<li>Implementation of a multi-threaded (boss-worker pattern) file server servicing a pool of clients in C</li>
-			</ul>
-		</a>
-
-		<a class="list-group-item" style="padding:2.5%;">
-			<strong>Proxy server using Inter-Process Communication</strong>
-			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
- 			<li>Implementation of a proxy server to act as an intermediary between a file server and its clients using libcurl's Easy Interface</li>
- 			<li>Implementation of a cache server to act as an alternate file source in a client-proxy-server setup</li>
- 			<li>Support for multiple proxy servers by incorporating multi-threading constructs in addition to shared memory and message queues (POSIX and SystemV)</li>
-			</ul>
-		</a>
-
-		<a class="list-group-item" style="padding:2.5%;">
-			<strong>Distributed File System using RPC (Remote Procedure Call) protocol service</strong>
-			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
- 			<li>Built a series of remote procedure calls (RPCs) and message types that fetch, store, list, and delete files in addition to getting file attributes/statistics in a distributed file system (one file server and multiple clients)</li>
- 			<li>Used gRPC (Google RPC) for RPC services and Protocol Buffers as the IDL (Interface Definition Language)</li>
- 			<li>Watcher thread implemented to be on a lookout for changes in the mounted directories</li>
-			<li>File content synced between clients and servers using asynchronous calls between server and clients to update the client/clients in case a file/files/directory changes on the server and vice versa</li>
-			<li>Mutexes and condition variables set in place in order to avoid race conditions and to avoid multiple writers from accessing the same file/directory</li>
-			</ul>
-		</a>
-
-		</small>
-		</small>
-		</div>
-	</div>
-
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>CS-6250 Computer Networks</strong>
-		<br>
-		<small><em>Dr. Maria Konte (Ph.D. Georgia Tech)</em></small><br>
-		<small><em>Spring 2021</em></small><br>
-
-		<div class="list-group">
-		<small>
-		<small>
-
-		<a class="list-group-item" style="padding:2.5%;">
-			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>Simulating networks and topologies (simple, complex, datacenter) in Mininet</li>
-			<li>Spanning tree protocol implementation</li>
-			<li>Distance Vector Routing protocol implementation</li>
-			<li>SDN firewall (using POX OpenFlow Controller) implementation</li>
-			<li>BGP hijacking in a sandbox environment</li>
-			<li>BGP measurements</li>
-			</ul>
-		</a>
-
-		</small>
-		</small>
-		</div>
-	</div>
-
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>CS-6290 High Performance Computer Architecture</strong>
-		<br>
-		<small><em>Dr. Milos Prvulovic (Ph.D. UIUC)</em></small><br>
-		<small><em>Fall 2020</em></small><br>
-
-		<div class="list-group">
-		<small>
-		<small>
-
-		<a class="list-group-item" style="padding:2.5%;">
-			<strong>SESC (Super ESCalar) Simulator</strong>
- 			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>Benchmarks: splash2 suite (Stanford Parallel Applications for Shared-Memory), lu decomposition, raytrace, fmm</li>
- 			<li>Profiling MIPS compatible binaries and tweaking CPU and cache configuration parameters in order to achieve optimal branch prediction accuracy and execution times in out-of-order processors</li>
- 			<li>Implemented a new cache policy (Next-to-LRU) in the SESC simulator</li>
- 			<li>Implemented new profiling counters for read/write cache misses (compulsory, conflict, capacity, replacement, coherence) in the SECS simulator</li>
- 			<li>Modified cache policy (Random, LRU, Next-to-LRU), cache size, associativity (4-way set associative, direct mapped), latency</li>
- 			<li>Modified branch predictors (Not-taken, Hybrid)</li>
- 			<li>Conclusions drawn by comparing compulsory, conflict, and capacity read/write misses in 4-way set-associative and direct-mapped caches</li>
-			<li>In multi-core processors, conclusions drawn by comparing compulsory, replacement, and coherence read/write misses after tweaking number of threads in CPU configurations</li>
-			</ul>
-		</a>
-
-		</small>
-		</small>
-		</div>
-	</div>
-
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>CS-6023 Introduction to Information Security</strong>
-		<br>
-		<small><em>Dr. Mustaque Ahamad (Ph.D. SUNY Stony Brook), Dr. Wenke Lee (Ph.D. Columbia)</em></small><br>
-		<small><em>Fall 2020</em></small><br>
-
-		<div class="list-group">
-		<small>
-		<small>
-
-		<a class="list-group-item" style="padding:2.5%;">
-			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li><strong>Software security</strong> Buffer overflow - implement a stack overflow attack and a return-to-libc buffer overflow attack in a sandbox environment</li>
- 			<li><strong>Malware analysis</strong> Analyze malware samples using Cuckoo and report the findings of various malware behaviors</li>
- 			<li><strong>Cryptography</strong> Exploiting RSA vulnerabilities using Python scripting (Broadcast RSA attack, detection of weak keys in network devices, get private key in a small key-space)</li>
- 			<li><strong>Web security</strong> Implement SQL Injection, XSS, and XSRF attacks in a sandbox environment</li>
-			</ul>
-		</a>
-
-		</small>
-		</small>
-		</div>
-	</div>
-
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>CS-6291 Embedded Software Optimization (also referred to as Embedded System Optimization)</strong>
-		<br>
-		<small><em>Dr. Santosh Pande (Ph.D. NC State)</em></small><br>
-		<small><em>Summer 2020</em></small><br>
-
-		<div class="list-group">
-		<small>
-		<small>
-
-		<a class="list-group-item" style="padding:2.5%;">
-			<strong>VLIW Scheduler</strong>
- 			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>Developed a VLIW Scheduler to convert 1-wide into 4-wide VEX ISA instructions</li>
- 			<li>Handled shared resource accesses and computed data dependence graphs i.e. memory and register dependencies</li>
- 			<li>Computed schedules with the least number of cycles using various tie-breaking (to decide which instruction goes next) heuristics</li>
-			</ul>
-		</a>
-
-		<a class="list-group-item" style="padding:2.5%;">
-			<strong>ARM and THUMB partitioning in RISC programs</strong>
-			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
- 			<li>Convert CISC programs into RISC programs to be executed and benchmarked on an ARMv8 (Cortex-A53) platform</li>
- 			<li>Benchmarks: jpeg-6b, mpeg2enc, mpeg2dec</li>
- 			<li>Libraries divided into ARM and THUMB partitions (procedure, file, library scope) after profiling</li>
- 			<li>Partitions tweaked to achieve optimal execution times and binary sizes</li>
-			</ul>
-		</a>
-
-		</small>
-		</small>
-		</div>
-	</div>
-
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>Enterprise Network Messaging System</strong>
-		<br>
-		<small><em>(circa 2017)</em></small>
-	</div>
-
-	<div class="w-100" style="padding:10px;"></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<div class="list-group">
-		<small>
-		<small>
-		<a class="list-group-item" style="padding:2.5%;">A messaging system in object oriented paradigms with a load balancer scalable to ‘n’ number of servers distributed across the enterprise network with over a hundred thousand clients</a>
-		<a class="list-group-item" style="padding:2.5%;">TPKT Packet Handler for TCP Sockets in line with RFC 1006 and RFC 2126</a>
-		<a class="list-group-item" style="padding:2.5%;">A wrapper for UDP Sockets for the reliable delivery of datagrams</a>
-		<a class="list-group-item" style="padding:2.5%;">Message Rate of ~1000+ messages per server</a>
-		<a class="list-group-item" style="padding:2.5%;">Asynchronous Socket Model</a>
-		</small>
-		</small>
-		</div>
-	</div>
-
-	<div class="col">
-		<center>
-			<div class="list-group">
-				<a class="list-group-item" href="{{ site.baseurl }}/public/projects/Messaging_System_100k.png" data-lightbox="Projects" data-title="Enterprise Network Messaging System" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/Messaging_System_100k.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-			</div>
-		</center>
-	</div>
-
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>An FPGA based approach to deep packet inspection for the purpose of application aware routing in content delivery networks</strong>
-		<br>
-		<small><em>(circa 2014)</em></small>
-	</div>
-
-	<div class="w-100" style="padding:10px;"></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<div class="list-group">
-		<small>
-		<small>
-		<a class="list-group-item" style="padding:2.5%;">Design and Implementation of an IEEE 802.3 packet routing mechanism on FPGA fabric (in Verilog and VHDL)</a>
-		<a class="list-group-item" style="padding:2.5%;">Deep packet inspection extracts OSI Layer 4 and 7 features (Protocol and URL) from incoming HTTP GET packets using string matching algorithms</a>
-		<a class="list-group-item" style="padding:2.5%;">Packets are then routed to designated output ports depending upon required bandwidth to achieve better QoS</a>
-		<a class="list-group-item" style="padding:2.5%;">The design is prototyped on NetFPGA 10G Development Board (Xilinx Virtex 5 FPGA Processor)</a>
-		<a class="list-group-item" style="padding:2.5%;">Advisor: Brig. Dr. Shoab Ahmed Khan, Ph.D. Georgia Institute of Technology, Atlanta GA</a>
-		<a class="list-group-item" style="padding:2.5%;">EC-499: Final Year Project</a>
-		</small>
-		</small>
-		</div>
-	</div>
-
-	<div class="col">
-		<center>
-			<div class="list-group">
-				<a class="list-group-item" href="{{ site.baseurl }}/public/projects/fyp1.png" data-lightbox="Projects" data-title="Application Aware Router" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/fyp1.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-				<a class="list-group-item" href="{{ site.baseurl }}/public/projects/fyp2.png" data-lightbox="Projects" data-title="Application Aware Router" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/fyp2.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-			</div>
-		</center>
-	</div>
-
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>Multi-threaded client-server communication protocol</strong>
-		<br>
-		<small><em>(circa 2012)</em></small>
-	</div>
-
-	<div class="w-100" style="padding:10px;"></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<div class="list-group">
-		<small>
-		<small>
-		<a class="list-group-item" style="padding:2.5%;">Implementation of a multi-threaded client-server communication environment without any limit on number of clients</a>
-		<a class="list-group-item" style="padding:2.5%;">System implemented using C#, TCP Client and Socket objects</a>
-		<a class="list-group-item" style="padding:2.5%;">Zero packet loss achieved</a>
-		<a class="list-group-item" style="padding:2.5%;">Advisor: Dr. Usman Qamar (Ph.D., Post Doc. Manchester)</a>
-		<a class="list-group-item" style="padding:2.5%;">EC-221: Operating Systems</a>
-		</small>
-		</small>
-		</div>
-	</div>
-
-	<div class="col">
-		<center>
-			<div class="list-group">
-				<a class="list-group-item" href="{{ site.baseurl }}/public/projects/basic_sockets.png" data-lightbox="Projects" data-title="Multi-threaded client-server communication protocol" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/basic_sockets.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-			</div>
-		</center>
-	</div>
-
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>Compiler Design</strong>
-		<br>
-		<small><em>(circa 2013)</em></small>
-	</div>
-
-	<div class="w-100" style="padding:10px;"></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<div class="list-group">
-		<small>
-		<small>
-		<a class="list-group-item" style="padding:2.5%;">Design and implementation of a GUI Compiler by employing L-R Parsing using self-defined grammar</a>
-		<a class="list-group-item" style="padding:2.5%;">The compiler is able to eradicate comments, white spaces, initialize variables and subsequently evaluate expressions of all lengths</a>
-		<a class="list-group-item" style="padding:2.5%;">Advisor: Dr. Farhan Riaz (MSCE Technical University Munich, Ph.D. Porto Portugal)</a>
-		<a class="list-group-item" style="padding:2.5%;">EC-215: Programming Languages and Environment</a>
-		</small>
-		</small>
-		</div>
-	</div>
-
-	<div class="col">
-		<center>
-			<div class="list-group">
-				<a class="list-group-item" href="{{ site.baseurl }}/public/projects/compiler.png" data-lightbox="Projects" data-title="Compiler Design" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/compiler.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-			</div>
-		</center>
-	</div>
-
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>Speaker Recognition</strong>
-		<br>
-		<small><em>(circa 2013)</em></small>
-	</div>
-
-	<div class="w-100" style="padding:10px;"></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<div class="list-group">
-		<small>
-		<small>
-		<a class="list-group-item" style="padding:2.5%;">Recognition of speaker (person), irrespective of what they speak, by extracting features (Mel-Frequency Cepstral/Cepstrum Coefficients) from recorded voice segments</a>
-		<a class="list-group-item" style="padding:2.5%;">Close to perfect results achieved by employing Naïve Bayes Classifier model over a small training dataset</a>
-		<a class="list-group-item" style="padding:2.5%;">Advisors: Dr. Arslan Shaukat (Ph.D. Manchester) and Dr. Usman Akram (National University of Sciences and Technology, Islamabad, Pakistan)</a>
-		<a class="list-group-item" style="padding:2.5%;">EC-334: Digital Signal Processing, EC-342: Artificial Intelligence & Decision Support Systems</a>
-		</small>
-		</small>
-		</div>
-	</div>
-
-	<div class="col">
-		<center>
-			<div class="list-group">
-				<a class="list-group-item" href="{{ site.baseurl }}/public/projects/MFCC.png" data-lightbox="Projects" data-title="Speaker Recognition" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/MFCC.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-			</div>
-		</center>
-	</div>
-
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>Feature Recognition and Tracking in real-time video feed</strong>
-		<br>
-		<small><em>(circa 2013)</em></small>
-	</div>
-
-	<div class="w-100" style="padding:10px;"></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<div class="list-group">
-		<small>
-		<small>
-		<a class="list-group-item" style="padding:2.5%;">Rapid object recognition and tracking using OpenCV’s Haar-Cascade libraries for haar-like-feature detection</a>
-		<a class="list-group-item" style="padding:2.5%;">The aim of this project is to detect signs of fatigue in drivers by following their blinking motion and count</a>
-		<a class="list-group-item" style="padding:2.5%;">This full-fledged solution generates output faster than a simple colour-tracking algorithm implemented using MATLAB</a>
-		<a class="list-group-item" style="padding:2.5%;">Advisors: Dr. Arslan Shaukat (Ph.D. Manchester) and Dr. Ameer Hamza (Ph.D. University of Southern California)</a>
-		<a class="list-group-item" style="padding:2.5%;">EC-433: Digital Image Processing</a>
-		</small>
-		</small>
-		</div>
-	</div>
-
-	<div class="col">
-		<center>
-			<div class="list-group">
-				<a class="list-group-item" href="{{ site.baseurl }}/public/projects/dip0.png" data-lightbox="Projects" data-title="Feature Recognition and Tracking in real-time video feed" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/dip0.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-				<a class="list-group-item" href="{{ site.baseurl }}/public/projects/dip1.png" data-lightbox="Projects" data-title="Feature Recognition and Tracking in real-time video feed" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/dip1.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-				<a class="list-group-item" href="{{ site.baseurl }}/public/projects/dip2.png" data-lightbox="Projects" data-title="Feature Recognition and Tracking in real-time video feed" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/dip2.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-			</div>
-		</center>
-	</div>
-
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>Search Algorithms</strong>
-		<br>
-		<small><em>(circa 2012)</em></small>
-	</div>
-
-	<div class="w-100" style="padding:10px;"></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<div class="list-group">
-		<small>
-		<small>
-		<a class="list-group-item" style="padding:2.5%;">This project involves exploring different search algorithms used to sort and produce results from large datasets</a>
-		<a class="list-group-item" style="padding:2.5%;">Implementation of splay-tree algorithm to witness the sorting mechanism (zig, zig-zig, zig-zag) which occurs upon data entry, deletion and extraction</a>
-		<a class="list-group-item" style="padding:2.5%;">Advisor: Dr. Aasia Khanum (Forman Christian College University, Lahore, Pakistan)</a>
-		<a class="list-group-item" style="padding:2.5%;">EC-211: Data Structures</a>
-		</small>
-		</small>
-		</div>
-	</div>
-
-	<div class="col">
-		<center>
-			<div class="list-group">
-				<a class="list-group-item" href="{{ site.baseurl }}/public/projects/splay_tree.png" data-lightbox="Projects" data-title="Splay Tree" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/splay_tree.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-			</div>
-		</center>
-	</div>
-
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>Remote Circuit Control and Actuation</strong>
-		<br>
-		<small><em>(circa 2013)</em></small>
-	</div>
-
-	<div class="w-100" style="padding:10px;"></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<div class="list-group">
-		<small>
-		<small>
-		<a class="list-group-item" style="padding:2.5%;">This project involves developing a solution to take full control of electronic circuits placed in harsh environments from safer distances</a>
-		<a class="list-group-item" style="padding:2.5%;">Several solutions were explored (Bluetooth Modules, GSM Modules, WLAN Modules)</a>
-		<a class="list-group-item" style="padding:2.5%;">After a thorough feasibility study, a prototype was developed using Microchip’s PIC18 microcontroller, a WLAN module, a UART-TTL interface connector, and a WLAN router</a>
-		<a class="list-group-item" style="padding:2.5%;">The circuit was operative from distances as vast as 300 meters in the open</a>
-		<a class="list-group-item" style="padding:2.5%;">Zero packet loss was achieved in this radius</a>
-		<a class="list-group-item" style="padding:2.5%;">Circular buffers were employed to overcome the issues prevalent due to the extremely high data (stream) rates</a>
-		<a class="list-group-item" style="padding:2.5%;">Advisor: Dr. Sajid Gul Khawaja (National University of Sciences and Technology, Islamabad, Pakistan)</a>
-		<a class="list-group-item" style="padding:2.5%;">EC-302: Microprocessor Based Design</a>
-		</small>
-		</small>
-		</div>
-	</div>
-
-	<div class="col">
-		<center>
-			<div class="list-group">
-				<a class="list-group-item" href="{{ site.baseurl }}/public/projects/mcu.png" data-lightbox="Projects" data-title="Remote Circuit Control and Actuation" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/mcu.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-			</div>
-		</center>
-	</div>
-
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>Stock Exchange Trend Logging and Analysis</strong>
-		<br>
-		<small><em>(circa 2013)</em></small>
-	</div>
-
-	<div class="w-100" style="padding:10px;"></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<div class="list-group">
-		<small>
-		<small>
-		<a class="list-group-item" style="padding:2.5%;">Karachi Stock Exchange’s website does not offer RSS feeds</a>
-		<a class="list-group-item" style="padding:2.5%;">An efficient approach to webpage-scraping and webpage-parsing was explored in this project</a>
-		<a class="list-group-item" style="padding:2.5%;">HTML Agility Pack and XPath (XML Path Language) proved to be helpful in achieving this goal</a>
-		<a class="list-group-item" style="padding:2.5%;">Data was logged in a background thread from KSE's website after 5 minute intervals and trend graphs plotted to ease analysis; a stock ticker was also incorporated into the GUI</a>
-		<a class="list-group-item" style="padding:2.5%;">Advisor: Dr. Wasi Haider Butt (National University of Sciences and Technology, Islamabad, Pakistan)</a>
-		<a class="list-group-item" style="padding:2.5%;">EC-316: Database Engineering</a>
-		</small>
-		</small>
-		</div>
-	</div>
-
-	<div class="col">
-		<center>
-			<div class="list-group">
-				<a class="list-group-item" href="{{ site.baseurl }}/public/projects/db.png" data-lightbox="Projects" data-title="Stock Exchange Trend Logging and Analysis" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/db.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-			</div>
-		</center>
-	</div>
-
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>Assembler</strong>
-		<br>
-		<small><em>(circa 2013)</em></small>
-	</div>
-
-	<div class="w-100" style="padding:10px;"></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<div class="list-group">
-		<small>
-		<small>
-		<a class="list-group-item" style="padding:2.5%;">An Assembler for ARMv4T Instruction Set</a>
-		<a class="list-group-item" style="padding:2.5%;">Advisor: Dr. Sajid Gul Khawaja (National University of Sciences and Technology, Islamabad, Pakistan)</a>
-		<a class="list-group-item" style="padding:2.5%;">EC-302: Microprocessor Based Design</a>
-		</small>
-		</small>
-		</div>
-	</div>
-
-	<div class="col">
-		<center>
-			<div class="list-group">
-				<a class="list-group-item" href="{{ site.baseurl }}/public/projects/assembler.png" data-lightbox="Projects" data-title="Assembler" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/assembler.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-			</div>
-		</center>
-	</div>
-
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>DC Motor Position Control using PID Algorithm</strong>
-		<br>
-		<small><em>(circa 2014)</em></small>
-	</div>
-
-	<div class="w-100" style="padding:10px;"></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<div class="list-group">
-		<small>
-		<small>
-		<a class="list-group-item" style="padding:2.5%;">Assembly: DC Motor with Encoder, Microchip PIC18F4520 MCU, L293D Half-Bridge DC Motor Driver</a>
-		<a class="list-group-item" style="padding:2.5%;">Environment: Microchip MPLAB (C++) Compiler, Proteus (Simulation), MATLAB Single-Input-Single-Output System Tool to fine tune PID Values</a>
-		<a class="list-group-item" style="padding:2.5%;">Advisor: Dr. Fahad Mumtaz Malik (National University of Sciences and Technology, Islamabad, Pakistan)</a>
-		<a class="list-group-item" style="padding:2.5%;">EE-432: Control Systems</a>
-		</small>
-		</small>
-		</div>
-	</div>
-
-	<div class="col">
-		<center>
-			<div class="list-group">
-				<a class="list-group-item" href="{{ site.baseurl }}/public/projects/PID.jpg" data-lightbox="Projects" data-title="DC Motor Position Control using PID Algorithm" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/PID.jpg" style="object-fit:scale-down; width:100%; height:75%;"></a>
-			</div>
-		</center>
-	</div>
-
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>2D Drawing Application</strong>
-		<br>
-		<small><em>(circa 2012)</em></small>
-	</div>
-
-	<div class="w-100" style="padding:10px;"></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<div class="list-group">
-		<small>
-		<small>
-		<a class="list-group-item" style="padding:2.5%;">Algorithms employed: flood fill, line drawing, scan line, ray casting</a>
-		<a class="list-group-item" style="padding:2.5%;">Development Environment: Microsoft Visual C#</a>
-		<a class="list-group-item" style="padding:2.5%;">Advisor: Mr. Yasir Jan (Ph.D. In Progress, Murdoch University, Western Australia)</a>
-		<a class="list-group-item" style="padding:2.5%;">EC-332: Computer Graphics</a>
-		</small>
-		</small>
-		</div>
-	</div>
-
-	<div class="col">
-		<center>
-			<div class="list-group">
-				<a class="list-group-item" href="{{ site.baseurl }}/public/projects/Paint.png" data-lightbox="Projects" data-title="2D Drawing Application" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/Paint.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-			</div>
-		</center>
-	</div>
-
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>Power Supply</strong>
-		<br>
-		<small><em>(circa 2012)</em></small>
-	</div>
-
-	<div class="w-100" style="padding:10px;"></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<div class="list-group">
-		<small>
-		<small>
-		<a class="list-group-item" style="padding:2.5%;">Etched on Printed Circuit Board</a>
-		<a class="list-group-item" style="padding:2.5%;">Variable voltage output (-12 V to 12 V)</a>
-		<a class="list-group-item" style="padding:2.5%;">Constant voltage output through regulators: -12 V, -5 V, 5 V, 12 V</a>
-		<a class="list-group-item" style="padding:2.5%;">Proteus and ARES used for Design and Simulation</a>
-		<a class="list-group-item" style="padding:2.5%;">Advisor: Dr. Qasim Umar Khan (National University of Sciences and Technology, Islamabad, Pakistan)</a>
-		<a class="list-group-item" style="padding:2.5%;">EE-213: Electronics 1, EE-214: Electronics Circuits Lab</a>
-		</small>
-		</small>
-		</div>
-	</div>
-
-	<div class="col">
-		<center>
-			<div class="list-group">
-				<a class="list-group-item" href="{{ site.baseurl }}/public/projects/power_supply1.png" data-lightbox="Projects" data-title="Power Supply" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/power_supply1.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-				<a class="list-group-item" href="{{ site.baseurl }}/public/projects/power_supply2.png" data-lightbox="Projects" data-title="Power Supply" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/power_supply2.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-				<a class="list-group-item" href="{{ site.baseurl }}/public/projects/power_supply3.jpg" data-lightbox="Projects" data-title="Power Supply" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/power_supply3.jpg" style="object-fit:scale-down; width:100%; height:75%;"></a>
-				<a class="list-group-item" href="{{ site.baseurl }}/public/projects/power_supply4.jpg" data-lightbox="Projects" data-title="Power Supply" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/power_supply4.jpg" style="object-fit:scale-down; width:100%; height:75%;"></a>
-			</div>
-		</center>
-	</div>
-
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>Frequency Meter</strong>
-		<br>
-		<small><em>(circa 2013)</em></small>
-	</div>
-
-	<div class="w-100" style="padding:10px;"></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<div class="list-group">
-		<small>
-		<small>
-		<a class="list-group-item" style="padding:2.5%;">Frequency Meter using Atmel AT89C51 MCU</a>
-		<a class="list-group-item" style="padding:2.5%;">Successfully able to register frequencies upto ~58 kHz</a>
-		<a class="list-group-item" style="padding:2.5%;">Proteus used for Design and Simulation</a>
-		<a class="list-group-item" style="padding:2.5%;">Advisor: Dr. Sajid Gul Khawaja (National University of Sciences and Technology, Islamabad, Pakistan)</a>
-		<a class="list-group-item" style="padding:2.5%;">EC-302: Microprocessor Based Design</a>
-		</small>
-		</small>
-		</div>
-	</div>
-
-	<div class="col">
-		<center>
-			<div class="list-group">
-				<a class="list-group-item" href="{{ site.baseurl }}/public/projects/frequency_meter.png" data-lightbox="Projects" data-title="Frequency Meter" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/frequency_meter.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-			</div>
-		</center>
-	</div>
-
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>Text Editor with Encryption</strong>
-		<br>
-		<small><em>(circa 2009)</em></small>
-	</div>
-
-	<div class="w-100" style="padding:10px;"></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<div class="list-group">
-		<small>
-		<small>
-		<a class="list-group-item" style="padding:2.5%;">Developed as a Part (Module 2) of the University of Cambridge GCE A Level Computing (9691) Syllabus</a>
-		<a class="list-group-item" style="padding:2.5%;">Development Environment: Microsoft Visual Basic .NET 2008</a>
-		<a class="list-group-item" style="padding:2.5%;">Devised a custom hashing algorithm for the encryption of ASCII character set</a>
-		</small>
-		</small>
-		</div>
-	</div>
-
-	<div class="col">
-		<center>
-			<div class="list-group">
-				<a class="list-group-item" href="{{ site.baseurl }}/public/projects/a-level_computing.png" data-lightbox="Projects" data-title="Text Editor with Encryption" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/a-level_computing.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-			</div>
-		</center>
-	</div>
-
-	<div class="w-100" style="padding:10px;"><hr></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<strong>Some other projects I undertook during the course of my undergraduate studies</strong>
-		<br>
-		<small><em>(circa 2010 - 2014)</em></small>
-	</div>
-
-	<div class="w-100" style="padding:10px;"></div>
-
-	<div class="col" style="word-wrap:break-word;">
-		<div class="list-group">
-		<small>
-		<small>
-
-		<a class="list-group-item" style="padding:2.5%;">
-			<strong>Quad-Core Micro-Coded State Machine with a custom 8-bit RISC architecture</strong><br>
-			Development Environment and Tools: Xilinx ISE Design Suite, Mentor Graphics ModelSim, Verilog<br>
-			EC-423: Digital System Design
-		</a>
-
-		<a class="list-group-item" style="padding:2.5%;">
-			<strong>Quadrature Phase Shift Keying Digital modulation Scheme implementation</strong><br>
-			Development Environment and Tools: MATLAB, Microsoft Visual C#<br>
-			EC-422: Digital Communication
-		</a>
-
-		<a class="list-group-item" style="padding:2.5%;">
-			<strong>Data transfer between two terminals over Parallel Port (IEEE 1284 DB-25 Connector)</strong><br>
-			Development Environment and Tools: Turbo C++<br>
-			EC-111: Algorithms and Computing
-		</a>
-
-		</small>
-		</small>
-		</div>
-	</div>
-
-	<div class="w-100" style="padding:10px;"></div>
+    <div class="col" style="word-wrap:break-word;">
+        <strong>CS-6515 Graduate Algoithms</strong>
+        <br>
+        <small><em>Dr. Eric Vigoda (Ph.D. UC Berkeley), Dr. Gerandy Brito (Ph.D. UW)</em></small><br>
+        <small><em>Summer 2023</em></small><br>
+
+        <div class="list-group">
+        <small>
+        <small>
+
+        <a class="list-group-item" style="padding:2.5%;">
+        <strong>Dynamic Programming for Optimal Substructure Problems</strong>
+        <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>Objective: To develop efficient algorithms using dynamic programming to solve problems with overlapping subproblems and optimal substructure.</li>
+            <li>Implementation: Designed and implemented algorithms for classic problems like the Longest Increasing Subsequence (LIS), Knapsack Problem, and Matrix Chain Multiplication. Each solution was optimized to reduce time complexity, demonstrating significant performance improvements over naive approaches.</li>
+            <li>Outcome: Gained expertise in identifying and applying dynamic programming techniques to real-world problems, enhancing algorithm efficiency and effectiveness.</li>
+        </ul>
+        </a>
+
+        <a class="list-group-item" style="padding:2.5%;">
+        <strong>Graph Algorithms for Network Optimization</strong>
+        <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>Objective: To explore and implement algorithms for network flow and shortest path problems in weighted and unweighted graphs.</li>
+            <li>Implementation: Implemented Dijkstra’s and Bellman-Ford algorithms for single-source shortest paths, and the Ford-Fulkerson method for computing maximum flow in a network. Tested these algorithms on various graph datasets to ensure robustness and scalability.</li>
+            <li>Outcome: Strengthened my understanding of graph theory and its practical applications in network design and optimization, particularly in scenarios involving complex routing and resource allocation.</li>
+        </ul>
+        </a>
+
+        <a class="list-group-item" style="padding:2.5%;">
+        <strong>Approximation Algorithms for NP-Hard Problems</strong>
+        <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>Objective: To devise approximation algorithms for NP-hard problems where exact solutions are computationally infeasible.</li>
+            <li>Implementation: Focused on problems such as the Traveling Salesman Problem (TSP) and Vertex Cover. Developed and analyzed approximation algorithms that provide near-optimal solutions within a guaranteed factor of the optimal solution.</li>
+            <li>Outcome: Enhanced problem-solving skills by exploring the trade-offs between computational efficiency and solution accuracy, and learned how to apply these principles to large-scale, real-world problems.</li>
+        </ul>
+        </a>
+
+        <a class="list-group-item" style="padding:2.5%;">
+        <strong>Randomized Algorithms and Probabilistic Analysis</strong>
+        <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>Objective: To understand and implement randomized algorithms and perform probabilistic analysis for problems where deterministic approaches are either too slow or complicated.</li>
+            <li>Implementation: Worked on algorithms like the Randomized QuickSort and Monte Carlo algorithms for primality testing. Evaluated their performance through rigorous statistical analysis and compared it with deterministic counterparts.</li>
+            <li>Outcome: Gained insight into the power of randomness in algorithms, particularly in scenarios where performance can be significantly improved by incorporating probabilistic methods.</li>
+        </ul>
+        </a>
+
+        </small>
+        </small>
+        </div>
+    </div>
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>CS-7641 Machine Learning</strong>
+        <br>
+        <small><em>Dr. Charles Isbell (Ph.D. MIT), Dr. Michael Littman (Ph.D. Brown)</em></small><br>
+        <small><em>Spring 2023 (Expected)</em></small><br>
+
+        <div class="list-group">
+        <small>
+        <small>
+
+        <a class="list-group-item" style="padding:2.5%;">
+        <strong>Supervised Learning</strong>
+        <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>Implemented of Decision Trees (pruned), Neural Networks, Boosting, Support Vector Machines, and K-nearest neighbours</li>
+            <li>Training the aforementioned algorithms on two large datasets in order to analyse how they perform in testing and validation phases</li>
+            <li>Performed hyperparamter tuning to achieve optimal accuracy</li>
+            <li>Learning curves generated in order to compare their performance</li>
+        </ul>
+        </a>
+
+        <a class="list-group-item" style="padding:2.5%;">
+        <strong>Randomized Optimization</strong>
+        <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>The aim of this assignment is to get acquainted with localized random search algorithms, namely, Randomized Hill Climbing (RHC), Simulated Annealing (SA), Genetic Algorithms (GA), and Mutual Information Maximizing Input Clustering (MIMIC). I solved fives problems of mathematical and discrete nature (that can be solved using randomized optimization techniques) with the aforementioned algorithms (randomized optimization techniques for choice of a better phrase) in order to find the maximum fitness function</li>
+            <li>Problems solved and analysed:
+                <ul>
+                    <li>Four-Peaks</li>
+                    <li>N-Queens</li>
+                    <li>Knapsack</li>
+                    <li>One-Max</li>
+                    <li>Max-K-Color</li>
+                </ul>
+            </li>
+        </ul>
+        </a>
+
+        <a class="list-group-item" style="padding:2.5%;">
+        <strong>Unsupervised Learning and Dimensionality Reduction</strong>
+        <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>The aim of this assignment is to acquaint oneself with a couple of unsupervised learning and dimensionality reduction techniques on two large datasets of our choice (with multiple features so that we have enough features to select/reduce)</li>
+            <li>Implemented K-Means Clustering and Expectation Maximization as clustering algorithms for unsupervised learning</li>
+            <li>Implemented PCA (Principal Component Analysis), ICA (Independent Component Analysis), Randomized Projects, and Feature Variance Thresholding as dimensionality reducation algorithms</li>
+            <li>Analysed the performance of combinations of the aforementioned clustering and dimensionality techniques on the chosen datasets and performed hyperparameter tuning in order to yield accurate modeling results</li>
+        </ul>
+        </a>
+
+        <a class="list-group-item" style="padding:2.5%;">
+        <strong>Markov Decision Processes</strong>
+        <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>Explored various reinforcement learning techniques an agent can use to make decisions.</li>
+            <li>An analysis of two interesting Markov Decision Processes (MDPs) is conducted using two planning algorithms, namely, value iteration and policy iteration, along with one reinforcement learning algorithm, namely, Q-Learning.</li>
+            <li>The MDPs are selected carefully to be able to draw conclusions as to which algorithm suits what type of problem best (non-grid world, grid world, number of states, etc.).</li>
+            <li>Chosen MDPs:</li>
+            <ul>
+                <li>Frozen Lake 4x4</li>
+                <li>Frozen Lake 16x16</li>
+                <li>Taxi</li>
+            </ul>
+            <li>Experiments conducted using Gymnasium (a maintained fork of OpenAI's Gym library)</li>
+        </ul>
+        </a>
+        </small>
+        </small>
+        </div>
+    </div>
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>CS-6601 Artificial Intelligence</strong>
+        <br>
+        <small><em>Dr. Thad Starner (Ph.D. MIT)</em></small><br>
+        <small><em>Summer 2022</em></small><br>
+
+        <div class="list-group">
+        <small>
+        <small>
+
+        <a class="list-group-item" style="padding:2.5%;">
+        <strong>Isolation Player</strong>
+        <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>Use the MINIMAX and alpha-beta pruning techniques and experiment with evaluation functions to create a program that can play a variant of the game Isolation better than a human</li>
+        </ul>
+        </a>
+
+        <a class="list-group-item" style="padding:2.5%;">
+        <strong>Search</strong>
+        <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>Experiment with various search techniques to discover the most efficient way to find the shortest path between three places in a city</li>
+        </ul>
+        </a>
+
+        <a class="list-group-item" style="padding:2.5%;">
+        <strong>Bayes Nets</strong>
+        <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>Implement Bayesian networks and sampling algorithms to gain a better understanding of probabilistic systems</li>
+        </ul>
+        </a>
+
+        <a class="list-group-item" style="padding:2.5%;">
+        <strong>Decision Trees</strong>
+        <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>Build, train, and test several decision tree models to perform basic classification tasks</li>
+        </ul>
+        </a>
+
+        <a class="list-group-item" style="padding:2.5%;">
+        <strong>Gaussian Mixture Models</strong>
+        <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>Implement k-means clustering and Gaussian mixture models to perform basic image segmentation. Research, implement, and test the Bayesian Information Criterion to guarantee a more robust image segmentation</li>
+        </ul>
+        </a>
+
+        <a class="list-group-item" style="padding:2.5%;">
+        <strong>Hidden Markov Models</strong>
+        <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>Implement the Viterbi and Forward-Backward algorithm to recognize signals using HMMs</li>
+        </ul>
+        </a>
+
+        </small>
+        </small>
+        </div>
+    </div>
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>CS-6263/ECE-8813 Introduction to Cyber-Physical Systems Security</strong>
+        <br>
+        <small><em>Dr. Raheem A Beyah (Ph.D. Georgia Tech), Dr. David Joyner (Ph.D. Georgia Tech)</em></small><br>
+        <small><em>Fall 2021</em></small><br>
+
+        <div class="list-group">
+        <small>
+        <small>
+
+        <a class="list-group-item" style="padding:2.5%;">
+        <strong>Paper Presentation</strong>
+        <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>Secure and Efficient Software-based Attestation for Industrial Control Devices with ARM Processors</li>
+        </ul>
+        </a>
+
+        <a class="list-group-item" style="padding:2.5%;">
+            <strong>Design and Implementation of Controllers for Industrial Control Systems using Factory I/O, Control I/O, and block-diagram logic programming</strong>
+            <a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/mp1-part1a.png" data-lightbox="Projects" data-title="Water Tank System" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/mp1-part1a.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+            <a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/mp1-part2ab.png" data-lightbox="Projects" data-title="Sorting Station" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/mp1-part2ab.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+            <a class="list-group-item list-group-item-action flex-column align-items-start border-top-0" href="{{ site.baseurl }}/public/projects/mp1-part3ab.png" data-lightbox="Projects" data-title="Production Line" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/mp1-part3ab.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+        </a>
+
+        <a class="list-group-item" style="padding:2.5%;">
+        <strong>Ladder Logic Programming using OpenPLC</strong>
+        <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>Robot Path</li>
+            <li>Traffic Lights</li>
+            <li>Tank Balancer</li>
+            <li>Stirring Systems</li>
+            <li>Car Parking</li>
+        </ul>
+        </a>
+
+        <a class="list-group-item" style="padding:2.5%;">
+        <strong>Reconnaissance and Attack on ICS Networks</strong>
+        <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>Understanding the Modbus protocol</li>
+            <li>Interfacing with Industrial Control Systems using Mininet, Python and Wireshark</li>
+        </ul>
+        </a>
+
+        <a class="list-group-item" style="padding:2.5%;">
+        <strong>Vulnerability Exploitation in Industrial Control Systems Protocol</strong>
+        <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>Implementation of buffer overflow exploits using x86 Assembly, C, and GDB</li>
+        </ul>
+        </a>
+
+        </small>
+        </small>
+        </div>
+    </div>
+
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>CS-6210 Advanced Operating Systems</strong>
+        <br>
+        <small><em>Dr. Umakishore Ramachandran (Ph.D. University of Wisconsin, Madison)</em></small><br>
+        <small><em>Fall 2021</em></small><br>
+
+        <div class="list-group">
+        <small>
+        <small>
+
+        <a class="list-group-item" style="padding:2.5%;">
+            <strong>Virtual Machine Scheduling in KVM</strong>
+            <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>Implemented a vCPU scheduler and a memory coordinator to dynamically manage resources assigned to each guest virtual machine</li>
+            <li>Memory ballooning driver implementation</li>
+            </ul>
+        </a>
+
+        <a class="list-group-item" style="padding:2.5%;">
+            <strong>Barrier Synchronization</strong>
+            <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>Implementation of barrier synchronization algorithms from the paper titled "Algorithms for Scalable Synchronization on Shared-Memory Multiprocessors, by John M. Mellor-Crummey (Rice University) and Michael L. Scott (University of Rochester), ACM Transactions on Computer Systems Vol. 9, No. 1, February, 1991"</li>
+            <li>Barriers implemented using OpenMP: Sense-Reversing Centralized Barrier and the MCS Tree Barrier</li>
+            <li>Barriers implemented using Open MPI: MCS Tree Barrier and Dissemination Barrier</li>
+            <li>Barriers benchmarked on Georgia Tech's Supercomputing cluster, PACE (Partnership for an Advanced Computing Environment)</li>
+            <li>Simulations carried out on 1-12 CPUs with each CPU capable of executing upto 12 simultaneous threads</li>
+            </ul>
+        </a>
+
+        <a class="list-group-item" style="padding:2.5%;">
+            <strong>A multi-threaded e-Commerce Store in a distributed service</strong>
+            <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>Distributed service implementation using gRPC (Google RPC) for RPC services and Protocol Buffers as the IDL (Interface Definition Language</li>
+            <li>Asynchronous RPC communication model: <b><i>Clients <---> Store Service <---> Vendors</i></b></li>
+            </ul>
+        </a>
+
+        <a class="list-group-item" style="padding:2.5%;">
+            <strong>Implementation of the MapReduce programming model in a distributed service</strong>
+            <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>Distributed service implementation using gRPC (Google RPC) for RPC services and Protocol Buffers as the IDL (Interface Definition Language</li>
+            <li>In line with the specifications as per the paper titled "MapReduce: Simplified Data Processing on Large Clusters, J. Dean, S. Ghemawat, Google Inc. OSDI 2004"</li>
+            <li>Creation of file shards/partitions for mapping</li>
+            <li>Implementation of a Mapper and a Reducer service</li>
+            </ul>
+        </a>
+
+        </small>
+        </small>
+        </div>
+    </div>
+
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>CS-6200 Graduate Introduction to Operating Systems</strong>
+        <br>
+        <small><em>Dr. Ada Gavrilovska (Ph.D. Georgia Tech)</em></small><br>
+        <small><em>Summer 2021</em></small><br>
+
+        <div class="list-group">
+        <small>
+        <small>
+
+        <a class="list-group-item" style="padding:2.5%;">
+            <strong>File-server</strong>
+            <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+             <li>Implementation of a multi-threaded (boss-worker pattern) file server servicing a pool of clients in C</li>
+            </ul>
+        </a>
+
+        <a class="list-group-item" style="padding:2.5%;">
+            <strong>Proxy server using Inter-Process Communication</strong>
+            <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+             <li>Implementation of a proxy server to act as an intermediary between a file server and its clients using libcurl's Easy Interface</li>
+             <li>Implementation of a cache server to act as an alternate file source in a client-proxy-server setup</li>
+             <li>Support for multiple proxy servers by incorporating multi-threading constructs in addition to shared memory and message queues (POSIX and SystemV)</li>
+            </ul>
+        </a>
+
+        <a class="list-group-item" style="padding:2.5%;">
+            <strong>Distributed File System using RPC (Remote Procedure Call) protocol service</strong>
+            <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+             <li>Built a series of remote procedure calls (RPCs) and message types that fetch, store, list, and delete files in addition to getting file attributes/statistics in a distributed file system (one file server and multiple clients)</li>
+             <li>Used gRPC (Google RPC) for RPC services and Protocol Buffers as the IDL (Interface Definition Language)</li>
+             <li>Watcher thread implemented to be on a lookout for changes in the mounted directories</li>
+            <li>File content synced between clients and servers using asynchronous calls between server and clients to update the client/clients in case a file/files/directory changes on the server and vice versa</li>
+            <li>Mutexes and condition variables set in place in order to avoid race conditions and to avoid multiple writers from accessing the same file/directory</li>
+            </ul>
+        </a>
+
+        </small>
+        </small>
+        </div>
+    </div>
+
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>CS-6250 Computer Networks</strong>
+        <br>
+        <small><em>Dr. Maria Konte (Ph.D. Georgia Tech)</em></small><br>
+        <small><em>Spring 2021</em></small><br>
+
+        <div class="list-group">
+        <small>
+        <small>
+
+        <a class="list-group-item" style="padding:2.5%;">
+            <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>Simulating networks and topologies (simple, complex, datacenter) in Mininet</li>
+            <li>Spanning tree protocol implementation</li>
+            <li>Distance Vector Routing protocol implementation</li>
+            <li>SDN firewall (using POX OpenFlow Controller) implementation</li>
+            <li>BGP hijacking in a sandbox environment</li>
+            <li>BGP measurements</li>
+            </ul>
+        </a>
+
+        </small>
+        </small>
+        </div>
+    </div>
+
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>CS-6290 High Performance Computer Architecture</strong>
+        <br>
+        <small><em>Dr. Milos Prvulovic (Ph.D. UIUC)</em></small><br>
+        <small><em>Fall 2020</em></small><br>
+
+        <div class="list-group">
+        <small>
+        <small>
+
+        <a class="list-group-item" style="padding:2.5%;">
+            <strong>SESC (Super ESCalar) Simulator</strong>
+             <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>Benchmarks: splash2 suite (Stanford Parallel Applications for Shared-Memory), lu decomposition, raytrace, fmm</li>
+             <li>Profiling MIPS compatible binaries and tweaking CPU and cache configuration parameters in order to achieve optimal branch prediction accuracy and execution times in out-of-order processors</li>
+             <li>Implemented a new cache policy (Next-to-LRU) in the SESC simulator</li>
+             <li>Implemented new profiling counters for read/write cache misses (compulsory, conflict, capacity, replacement, coherence) in the SECS simulator</li>
+             <li>Modified cache policy (Random, LRU, Next-to-LRU), cache size, associativity (4-way set associative, direct mapped), latency</li>
+             <li>Modified branch predictors (Not-taken, Hybrid)</li>
+             <li>Conclusions drawn by comparing compulsory, conflict, and capacity read/write misses in 4-way set-associative and direct-mapped caches</li>
+            <li>In multi-core processors, conclusions drawn by comparing compulsory, replacement, and coherence read/write misses after tweaking number of threads in CPU configurations</li>
+            </ul>
+        </a>
+
+        </small>
+        </small>
+        </div>
+    </div>
+
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>CS-6023 Introduction to Information Security</strong>
+        <br>
+        <small><em>Dr. Mustaque Ahamad (Ph.D. SUNY Stony Brook), Dr. Wenke Lee (Ph.D. Columbia)</em></small><br>
+        <small><em>Fall 2020</em></small><br>
+
+        <div class="list-group">
+        <small>
+        <small>
+
+        <a class="list-group-item" style="padding:2.5%;">
+            <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li><strong>Software security</strong> Buffer overflow - implement a stack overflow attack and a return-to-libc buffer overflow attack in a sandbox environment</li>
+             <li><strong>Malware analysis</strong> Analyze malware samples using Cuckoo and report the findings of various malware behaviors</li>
+             <li><strong>Cryptography</strong> Exploiting RSA vulnerabilities using Python scripting (Broadcast RSA attack, detection of weak keys in network devices, get private key in a small key-space)</li>
+             <li><strong>Web security</strong> Implement SQL Injection, XSS, and XSRF attacks in a sandbox environment</li>
+            </ul>
+        </a>
+
+        </small>
+        </small>
+        </div>
+    </div>
+
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>CS-6291 Embedded Software Optimization (also referred to as Embedded System Optimization)</strong>
+        <br>
+        <small><em>Dr. Santosh Pande (Ph.D. NC State)</em></small><br>
+        <small><em>Summer 2020</em></small><br>
+
+        <div class="list-group">
+        <small>
+        <small>
+
+        <a class="list-group-item" style="padding:2.5%;">
+            <strong>VLIW Scheduler</strong>
+             <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+            <li>Developed a VLIW Scheduler to convert 1-wide into 4-wide VEX ISA instructions</li>
+             <li>Handled shared resource accesses and computed data dependence graphs i.e. memory and register dependencies</li>
+             <li>Computed schedules with the least number of cycles using various tie-breaking (to decide which instruction goes next) heuristics</li>
+            </ul>
+        </a>
+
+        <a class="list-group-item" style="padding:2.5%;">
+            <strong>ARM and THUMB partitioning in RISC programs</strong>
+            <ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+             <li>Convert CISC programs into RISC programs to be executed and benchmarked on an ARMv8 (Cortex-A53) platform</li>
+             <li>Benchmarks: jpeg-6b, mpeg2enc, mpeg2dec</li>
+             <li>Libraries divided into ARM and THUMB partitions (procedure, file, library scope) after profiling</li>
+             <li>Partitions tweaked to achieve optimal execution times and binary sizes</li>
+            </ul>
+        </a>
+
+        </small>
+        </small>
+        </div>
+    </div>
+
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>Enterprise Network Messaging System</strong>
+        <br>
+        <small><em>(circa 2017)</em></small>
+    </div>
+
+    <div class="w-100" style="padding:10px;"></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <div class="list-group">
+        <small>
+        <small>
+        <a class="list-group-item" style="padding:2.5%;">A messaging system in object oriented paradigms with a load balancer scalable to ‘n’ number of servers distributed across the enterprise network with over a hundred thousand clients</a>
+        <a class="list-group-item" style="padding:2.5%;">TPKT Packet Handler for TCP Sockets in line with RFC 1006 and RFC 2126</a>
+        <a class="list-group-item" style="padding:2.5%;">A wrapper for UDP Sockets for the reliable delivery of datagrams</a>
+        <a class="list-group-item" style="padding:2.5%;">Message Rate of ~1000+ messages per server</a>
+        <a class="list-group-item" style="padding:2.5%;">Asynchronous Socket Model</a>
+        </small>
+        </small>
+        </div>
+    </div>
+
+    <div class="col">
+        <center>
+            <div class="list-group">
+                <a class="list-group-item" href="{{ site.baseurl }}/public/projects/Messaging_System_100k.png" data-lightbox="Projects" data-title="Enterprise Network Messaging System" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/Messaging_System_100k.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+            </div>
+        </center>
+    </div>
+
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>An FPGA based approach to deep packet inspection for the purpose of application aware routing in content delivery networks</strong>
+        <br>
+        <small><em>(circa 2014)</em></small>
+    </div>
+
+    <div class="w-100" style="padding:10px;"></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <div class="list-group">
+        <small>
+        <small>
+        <a class="list-group-item" style="padding:2.5%;">Design and Implementation of an IEEE 802.3 packet routing mechanism on FPGA fabric (in Verilog and VHDL)</a>
+        <a class="list-group-item" style="padding:2.5%;">Deep packet inspection extracts OSI Layer 4 and 7 features (Protocol and URL) from incoming HTTP GET packets using string matching algorithms</a>
+        <a class="list-group-item" style="padding:2.5%;">Packets are then routed to designated output ports depending upon required bandwidth to achieve better QoS</a>
+        <a class="list-group-item" style="padding:2.5%;">The design is prototyped on NetFPGA 10G Development Board (Xilinx Virtex 5 FPGA Processor)</a>
+        <a class="list-group-item" style="padding:2.5%;">Advisor: Brig. Dr. Shoab Ahmed Khan, Ph.D. Georgia Institute of Technology, Atlanta GA</a>
+        <a class="list-group-item" style="padding:2.5%;">EC-499: Final Year Project</a>
+        </small>
+        </small>
+        </div>
+    </div>
+
+    <div class="col">
+        <center>
+            <div class="list-group">
+                <a class="list-group-item" href="{{ site.baseurl }}/public/projects/fyp1.png" data-lightbox="Projects" data-title="Application Aware Router" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/fyp1.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+                <a class="list-group-item" href="{{ site.baseurl }}/public/projects/fyp2.png" data-lightbox="Projects" data-title="Application Aware Router" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/fyp2.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+            </div>
+        </center>
+    </div>
+
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>Multi-threaded client-server communication protocol</strong>
+        <br>
+        <small><em>(circa 2012)</em></small>
+    </div>
+
+    <div class="w-100" style="padding:10px;"></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <div class="list-group">
+        <small>
+        <small>
+        <a class="list-group-item" style="padding:2.5%;">Implementation of a multi-threaded client-server communication environment without any limit on number of clients</a>
+        <a class="list-group-item" style="padding:2.5%;">System implemented using C#, TCP Client and Socket objects</a>
+        <a class="list-group-item" style="padding:2.5%;">Zero packet loss achieved</a>
+        <a class="list-group-item" style="padding:2.5%;">Advisor: Dr. Usman Qamar (Ph.D., Post Doc. Manchester)</a>
+        <a class="list-group-item" style="padding:2.5%;">EC-221: Operating Systems</a>
+        </small>
+        </small>
+        </div>
+    </div>
+
+    <div class="col">
+        <center>
+            <div class="list-group">
+                <a class="list-group-item" href="{{ site.baseurl }}/public/projects/basic_sockets.png" data-lightbox="Projects" data-title="Multi-threaded client-server communication protocol" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/basic_sockets.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+            </div>
+        </center>
+    </div>
+
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>Compiler Design</strong>
+        <br>
+        <small><em>(circa 2013)</em></small>
+    </div>
+
+    <div class="w-100" style="padding:10px;"></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <div class="list-group">
+        <small>
+        <small>
+        <a class="list-group-item" style="padding:2.5%;">Design and implementation of a GUI Compiler by employing L-R Parsing using self-defined grammar</a>
+        <a class="list-group-item" style="padding:2.5%;">The compiler is able to eradicate comments, white spaces, initialize variables and subsequently evaluate expressions of all lengths</a>
+        <a class="list-group-item" style="padding:2.5%;">Advisor: Dr. Farhan Riaz (MSCE Technical University Munich, Ph.D. Porto Portugal)</a>
+        <a class="list-group-item" style="padding:2.5%;">EC-215: Programming Languages and Environment</a>
+        </small>
+        </small>
+        </div>
+    </div>
+
+    <div class="col">
+        <center>
+            <div class="list-group">
+                <a class="list-group-item" href="{{ site.baseurl }}/public/projects/compiler.png" data-lightbox="Projects" data-title="Compiler Design" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/compiler.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+            </div>
+        </center>
+    </div>
+
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>Speaker Recognition</strong>
+        <br>
+        <small><em>(circa 2013)</em></small>
+    </div>
+
+    <div class="w-100" style="padding:10px;"></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <div class="list-group">
+        <small>
+        <small>
+        <a class="list-group-item" style="padding:2.5%;">Recognition of speaker (person), irrespective of what they speak, by extracting features (Mel-Frequency Cepstral/Cepstrum Coefficients) from recorded voice segments</a>
+        <a class="list-group-item" style="padding:2.5%;">Close to perfect results achieved by employing Naïve Bayes Classifier model over a small training dataset</a>
+        <a class="list-group-item" style="padding:2.5%;">Advisors: Dr. Arslan Shaukat (Ph.D. Manchester) and Dr. Usman Akram (National University of Sciences and Technology, Islamabad, Pakistan)</a>
+        <a class="list-group-item" style="padding:2.5%;">EC-334: Digital Signal Processing, EC-342: Artificial Intelligence & Decision Support Systems</a>
+        </small>
+        </small>
+        </div>
+    </div>
+
+    <div class="col">
+        <center>
+            <div class="list-group">
+                <a class="list-group-item" href="{{ site.baseurl }}/public/projects/MFCC.png" data-lightbox="Projects" data-title="Speaker Recognition" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/MFCC.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+            </div>
+        </center>
+    </div>
+
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>Feature Recognition and Tracking in real-time video feed</strong>
+        <br>
+        <small><em>(circa 2013)</em></small>
+    </div>
+
+    <div class="w-100" style="padding:10px;"></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <div class="list-group">
+        <small>
+        <small>
+        <a class="list-group-item" style="padding:2.5%;">Rapid object recognition and tracking using OpenCV’s Haar-Cascade libraries for haar-like-feature detection</a>
+        <a class="list-group-item" style="padding:2.5%;">The aim of this project is to detect signs of fatigue in drivers by following their blinking motion and count</a>
+        <a class="list-group-item" style="padding:2.5%;">This full-fledged solution generates output faster than a simple colour-tracking algorithm implemented using MATLAB</a>
+        <a class="list-group-item" style="padding:2.5%;">Advisors: Dr. Arslan Shaukat (Ph.D. Manchester) and Dr. Ameer Hamza (Ph.D. University of Southern California)</a>
+        <a class="list-group-item" style="padding:2.5%;">EC-433: Digital Image Processing</a>
+        </small>
+        </small>
+        </div>
+    </div>
+
+    <div class="col">
+        <center>
+            <div class="list-group">
+                <a class="list-group-item" href="{{ site.baseurl }}/public/projects/dip0.png" data-lightbox="Projects" data-title="Feature Recognition and Tracking in real-time video feed" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/dip0.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+                <a class="list-group-item" href="{{ site.baseurl }}/public/projects/dip1.png" data-lightbox="Projects" data-title="Feature Recognition and Tracking in real-time video feed" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/dip1.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+                <a class="list-group-item" href="{{ site.baseurl }}/public/projects/dip2.png" data-lightbox="Projects" data-title="Feature Recognition and Tracking in real-time video feed" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/dip2.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+            </div>
+        </center>
+    </div>
+
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>Search Algorithms</strong>
+        <br>
+        <small><em>(circa 2012)</em></small>
+    </div>
+
+    <div class="w-100" style="padding:10px;"></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <div class="list-group">
+        <small>
+        <small>
+        <a class="list-group-item" style="padding:2.5%;">This project involves exploring different search algorithms used to sort and produce results from large datasets</a>
+        <a class="list-group-item" style="padding:2.5%;">Implementation of splay-tree algorithm to witness the sorting mechanism (zig, zig-zig, zig-zag) which occurs upon data entry, deletion and extraction</a>
+        <a class="list-group-item" style="padding:2.5%;">Advisor: Dr. Aasia Khanum (Forman Christian College University, Lahore, Pakistan)</a>
+        <a class="list-group-item" style="padding:2.5%;">EC-211: Data Structures</a>
+        </small>
+        </small>
+        </div>
+    </div>
+
+    <div class="col">
+        <center>
+            <div class="list-group">
+                <a class="list-group-item" href="{{ site.baseurl }}/public/projects/splay_tree.png" data-lightbox="Projects" data-title="Splay Tree" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/splay_tree.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+            </div>
+        </center>
+    </div>
+
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>Remote Circuit Control and Actuation</strong>
+        <br>
+        <small><em>(circa 2013)</em></small>
+    </div>
+
+    <div class="w-100" style="padding:10px;"></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <div class="list-group">
+        <small>
+        <small>
+        <a class="list-group-item" style="padding:2.5%;">This project involves developing a solution to take full control of electronic circuits placed in harsh environments from safer distances</a>
+        <a class="list-group-item" style="padding:2.5%;">Several solutions were explored (Bluetooth Modules, GSM Modules, WLAN Modules)</a>
+        <a class="list-group-item" style="padding:2.5%;">After a thorough feasibility study, a prototype was developed using Microchip’s PIC18 microcontroller, a WLAN module, a UART-TTL interface connector, and a WLAN router</a>
+        <a class="list-group-item" style="padding:2.5%;">The circuit was operative from distances as vast as 300 meters in the open</a>
+        <a class="list-group-item" style="padding:2.5%;">Zero packet loss was achieved in this radius</a>
+        <a class="list-group-item" style="padding:2.5%;">Circular buffers were employed to overcome the issues prevalent due to the extremely high data (stream) rates</a>
+        <a class="list-group-item" style="padding:2.5%;">Advisor: Dr. Sajid Gul Khawaja (National University of Sciences and Technology, Islamabad, Pakistan)</a>
+        <a class="list-group-item" style="padding:2.5%;">EC-302: Microprocessor Based Design</a>
+        </small>
+        </small>
+        </div>
+    </div>
+
+    <div class="col">
+        <center>
+            <div class="list-group">
+                <a class="list-group-item" href="{{ site.baseurl }}/public/projects/mcu.png" data-lightbox="Projects" data-title="Remote Circuit Control and Actuation" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/mcu.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+            </div>
+        </center>
+    </div>
+
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>Stock Exchange Trend Logging and Analysis</strong>
+        <br>
+        <small><em>(circa 2013)</em></small>
+    </div>
+
+    <div class="w-100" style="padding:10px;"></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <div class="list-group">
+        <small>
+        <small>
+        <a class="list-group-item" style="padding:2.5%;">Karachi Stock Exchange’s website does not offer RSS feeds</a>
+        <a class="list-group-item" style="padding:2.5%;">An efficient approach to webpage-scraping and webpage-parsing was explored in this project</a>
+        <a class="list-group-item" style="padding:2.5%;">HTML Agility Pack and XPath (XML Path Language) proved to be helpful in achieving this goal</a>
+        <a class="list-group-item" style="padding:2.5%;">Data was logged in a background thread from KSE's website after 5 minute intervals and trend graphs plotted to ease analysis; a stock ticker was also incorporated into the GUI</a>
+        <a class="list-group-item" style="padding:2.5%;">Advisor: Dr. Wasi Haider Butt (National University of Sciences and Technology, Islamabad, Pakistan)</a>
+        <a class="list-group-item" style="padding:2.5%;">EC-316: Database Engineering</a>
+        </small>
+        </small>
+        </div>
+    </div>
+
+    <div class="col">
+        <center>
+            <div class="list-group">
+                <a class="list-group-item" href="{{ site.baseurl }}/public/projects/db.png" data-lightbox="Projects" data-title="Stock Exchange Trend Logging and Analysis" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/db.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+            </div>
+        </center>
+    </div>
+
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>Assembler</strong>
+        <br>
+        <small><em>(circa 2013)</em></small>
+    </div>
+
+    <div class="w-100" style="padding:10px;"></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <div class="list-group">
+        <small>
+        <small>
+        <a class="list-group-item" style="padding:2.5%;">An Assembler for ARMv4T Instruction Set</a>
+        <a class="list-group-item" style="padding:2.5%;">Advisor: Dr. Sajid Gul Khawaja (National University of Sciences and Technology, Islamabad, Pakistan)</a>
+        <a class="list-group-item" style="padding:2.5%;">EC-302: Microprocessor Based Design</a>
+        </small>
+        </small>
+        </div>
+    </div>
+
+    <div class="col">
+        <center>
+            <div class="list-group">
+                <a class="list-group-item" href="{{ site.baseurl }}/public/projects/assembler.png" data-lightbox="Projects" data-title="Assembler" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/assembler.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+            </div>
+        </center>
+    </div>
+
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>DC Motor Position Control using PID Algorithm</strong>
+        <br>
+        <small><em>(circa 2014)</em></small>
+    </div>
+
+    <div class="w-100" style="padding:10px;"></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <div class="list-group">
+        <small>
+        <small>
+        <a class="list-group-item" style="padding:2.5%;">Assembly: DC Motor with Encoder, Microchip PIC18F4520 MCU, L293D Half-Bridge DC Motor Driver</a>
+        <a class="list-group-item" style="padding:2.5%;">Environment: Microchip MPLAB (C++) Compiler, Proteus (Simulation), MATLAB Single-Input-Single-Output System Tool to fine tune PID Values</a>
+        <a class="list-group-item" style="padding:2.5%;">Advisor: Dr. Fahad Mumtaz Malik (National University of Sciences and Technology, Islamabad, Pakistan)</a>
+        <a class="list-group-item" style="padding:2.5%;">EE-432: Control Systems</a>
+        </small>
+        </small>
+        </div>
+    </div>
+
+    <div class="col">
+        <center>
+            <div class="list-group">
+                <a class="list-group-item" href="{{ site.baseurl }}/public/projects/PID.jpg" data-lightbox="Projects" data-title="DC Motor Position Control using PID Algorithm" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/PID.jpg" style="object-fit:scale-down; width:100%; height:75%;"></a>
+            </div>
+        </center>
+    </div>
+
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>2D Drawing Application</strong>
+        <br>
+        <small><em>(circa 2012)</em></small>
+    </div>
+
+    <div class="w-100" style="padding:10px;"></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <div class="list-group">
+        <small>
+        <small>
+        <a class="list-group-item" style="padding:2.5%;">Algorithms employed: flood fill, line drawing, scan line, ray casting</a>
+        <a class="list-group-item" style="padding:2.5%;">Development Environment: Microsoft Visual C#</a>
+        <a class="list-group-item" style="padding:2.5%;">Advisor: Mr. Yasir Jan (Ph.D. In Progress, Murdoch University, Western Australia)</a>
+        <a class="list-group-item" style="padding:2.5%;">EC-332: Computer Graphics</a>
+        </small>
+        </small>
+        </div>
+    </div>
+
+    <div class="col">
+        <center>
+            <div class="list-group">
+                <a class="list-group-item" href="{{ site.baseurl }}/public/projects/Paint.png" data-lightbox="Projects" data-title="2D Drawing Application" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/Paint.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+            </div>
+        </center>
+    </div>
+
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>Power Supply</strong>
+        <br>
+        <small><em>(circa 2012)</em></small>
+    </div>
+
+    <div class="w-100" style="padding:10px;"></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <div class="list-group">
+        <small>
+        <small>
+        <a class="list-group-item" style="padding:2.5%;">Etched on Printed Circuit Board</a>
+        <a class="list-group-item" style="padding:2.5%;">Variable voltage output (-12 V to 12 V)</a>
+        <a class="list-group-item" style="padding:2.5%;">Constant voltage output through regulators: -12 V, -5 V, 5 V, 12 V</a>
+        <a class="list-group-item" style="padding:2.5%;">Proteus and ARES used for Design and Simulation</a>
+        <a class="list-group-item" style="padding:2.5%;">Advisor: Dr. Qasim Umar Khan (National University of Sciences and Technology, Islamabad, Pakistan)</a>
+        <a class="list-group-item" style="padding:2.5%;">EE-213: Electronics 1, EE-214: Electronics Circuits Lab</a>
+        </small>
+        </small>
+        </div>
+    </div>
+
+    <div class="col">
+        <center>
+            <div class="list-group">
+                <a class="list-group-item" href="{{ site.baseurl }}/public/projects/power_supply1.png" data-lightbox="Projects" data-title="Power Supply" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/power_supply1.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+                <a class="list-group-item" href="{{ site.baseurl }}/public/projects/power_supply2.png" data-lightbox="Projects" data-title="Power Supply" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/power_supply2.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+                <a class="list-group-item" href="{{ site.baseurl }}/public/projects/power_supply3.jpg" data-lightbox="Projects" data-title="Power Supply" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/power_supply3.jpg" style="object-fit:scale-down; width:100%; height:75%;"></a>
+                <a class="list-group-item" href="{{ site.baseurl }}/public/projects/power_supply4.jpg" data-lightbox="Projects" data-title="Power Supply" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/power_supply4.jpg" style="object-fit:scale-down; width:100%; height:75%;"></a>
+            </div>
+        </center>
+    </div>
+
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>Frequency Meter</strong>
+        <br>
+        <small><em>(circa 2013)</em></small>
+    </div>
+
+    <div class="w-100" style="padding:10px;"></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <div class="list-group">
+        <small>
+        <small>
+        <a class="list-group-item" style="padding:2.5%;">Frequency Meter using Atmel AT89C51 MCU</a>
+        <a class="list-group-item" style="padding:2.5%;">Successfully able to register frequencies upto ~58 kHz</a>
+        <a class="list-group-item" style="padding:2.5%;">Proteus used for Design and Simulation</a>
+        <a class="list-group-item" style="padding:2.5%;">Advisor: Dr. Sajid Gul Khawaja (National University of Sciences and Technology, Islamabad, Pakistan)</a>
+        <a class="list-group-item" style="padding:2.5%;">EC-302: Microprocessor Based Design</a>
+        </small>
+        </small>
+        </div>
+    </div>
+
+    <div class="col">
+        <center>
+            <div class="list-group">
+                <a class="list-group-item" href="{{ site.baseurl }}/public/projects/frequency_meter.png" data-lightbox="Projects" data-title="Frequency Meter" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/frequency_meter.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+            </div>
+        </center>
+    </div>
+
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>Text Editor with Encryption</strong>
+        <br>
+        <small><em>(circa 2009)</em></small>
+    </div>
+
+    <div class="w-100" style="padding:10px;"></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <div class="list-group">
+        <small>
+        <small>
+        <a class="list-group-item" style="padding:2.5%;">Developed as a Part (Module 2) of the University of Cambridge GCE A Level Computing (9691) Syllabus</a>
+        <a class="list-group-item" style="padding:2.5%;">Development Environment: Microsoft Visual Basic .NET 2008</a>
+        <a class="list-group-item" style="padding:2.5%;">Devised a custom hashing algorithm for the encryption of ASCII character set</a>
+        </small>
+        </small>
+        </div>
+    </div>
+
+    <div class="col">
+        <center>
+            <div class="list-group">
+                <a class="list-group-item" href="{{ site.baseurl }}/public/projects/a-level_computing.png" data-lightbox="Projects" data-title="Text Editor with Encryption" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/a-level_computing.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+            </div>
+        </center>
+    </div>
+
+    <div class="w-100" style="padding:10px;"><hr></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <strong>Some other projects I undertook during the course of my undergraduate studies</strong>
+        <br>
+        <small><em>(circa 2010 - 2014)</em></small>
+    </div>
+
+    <div class="w-100" style="padding:10px;"></div>
+
+    <div class="col" style="word-wrap:break-word;">
+        <div class="list-group">
+        <small>
+        <small>
+
+        <a class="list-group-item" style="padding:2.5%;">
+            <strong>Quad-Core Micro-Coded State Machine with a custom 8-bit RISC architecture</strong><br>
+            Development Environment and Tools: Xilinx ISE Design Suite, Mentor Graphics ModelSim, Verilog<br>
+            EC-423: Digital System Design
+        </a>
+
+        <a class="list-group-item" style="padding:2.5%;">
+            <strong>Quadrature Phase Shift Keying Digital modulation Scheme implementation</strong><br>
+            Development Environment and Tools: MATLAB, Microsoft Visual C#<br>
+            EC-422: Digital Communication
+        </a>
+
+        <a class="list-group-item" style="padding:2.5%;">
+            <strong>Data transfer between two terminals over Parallel Port (IEEE 1284 DB-25 Connector)</strong><br>
+            Development Environment and Tools: Turbo C++<br>
+            EC-111: Algorithms and Computing
+        </a>
+
+        </small>
+        </small>
+        </div>
+    </div>
+
+    <div class="w-100" style="padding:10px;"></div>
 
 </div>
 
